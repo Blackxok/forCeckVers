@@ -1,0 +1,102 @@
+:root {
+	--size: calc(1vw + 1vh);
+	/* width: calc(var(--size) * 10); use */
+	--color1: rgba(11, 4, 20, 1);
+	--color2: rgba(230, 230, 240, 1);
+	--font1: 'TT Firs Neue Trl', sans-serif;
+}
+
+.fishkalar {
+	width: 100%;
+	height: 360px;
+	position: absolute;
+	left: 0;
+	background: linear-gradient(
+		113deg,
+		rgba(255, 185, 18, 1) 0%,
+		rgba(212, 29, 103, 1) 27%,
+		rgba(141, 16, 231, 1) 62%,
+		rgba(77, 97, 195, 1) 82%,
+		rgba(0, 173, 254, 1) 100%
+	);
+	font-family: var(--font1);
+	letter-spacing: 0.65px;
+}
+
+/* .fishkalar:before {
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	height: 360px;
+	z-index: 0;
+	opacity: 0.3;
+	background: rgb(198, 146, 22);
+	background: linear-gradient(
+		41deg,
+		rgb(48, 48, 48) 0%,
+		rgba(196, 60, 115, 1) 27%,
+		rgb(66, 13, 105) 60%,
+		rgb(24, 32, 70) 82%,
+		rgb(9, 71, 99) 98%
+	);
+} */
+
+.fishka_container {
+	width: 100%;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	/* height: 360px */
+}
+.fishka_row {
+	/* border: 2px solid rebeccapurple !important; */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.talim_boxes {
+	/* padding: 10px; */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.fishka_row p {
+	font-size: 22px;
+	font-family: var(--font1);
+	font-weight: 100;
+}
+.talim_box {
+	width: 322px;
+	height: 170px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	flex-direction: column;
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(1.2px);
+	-webkit-backdrop-filter: blur(1.2px);
+	border: 1px solid rgba(255, 255, 255, 0.37);
+}
+.talim_box img {
+	width: 35px;
+	height: 35px;
+}
+.talim_box_title {
+	font-weight: bold !important;
+	font-size: 26px;
+}
+.talim_box_text {
+	font-size: 14px;
+	font-weight: 400;
+}
