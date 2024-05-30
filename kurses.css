@@ -1,0 +1,147 @@
+:root {
+	--size: calc(1vw + 1vh);
+	/* width: calc(var(--size) * 10); use */
+	--color1: rgba(11, 4, 20, 1);
+	--color2: rgba(230, 230, 240, 1);
+	--font1: 'TT Firs Neue Trl', sans-serif;
+}
+
+.kurslar {
+	transform: translateY(360px);
+}
+.kusrses_container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.kurses_box {
+	width: 760px;
+	height: 310px;
+	border-radius: 20px;
+	border: 2px solid red;
+	padding: 30px;
+}
+.kurses_box_top {
+	width: 231px;
+	height: 38px;
+	padding: 2px 18px 3px 17px;
+	border-radius: 16px;
+	border: 1px 0px 0px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: radial-gradient(
+			50% 50% at 50% 50%,
+			rgba(243, 79, 27, 0.99) 0%,
+			#be1919 73.5%
+		),
+		linear-gradient(
+			37deg,
+			rgba(195, 140, 245, 0.28) 11.56%,
+			rgba(0, 0, 0, 0) 86.3%
+		),
+		linear-gradient(
+			222deg,
+			rgba(255, 255, 255, 0.2) 8.7%,
+			rgba(0, 0, 0, 0) 37.9%
+		);
+}
+.kurses_box_top p {
+	font-size: 20px;
+}
+.kurses_box_top img {
+	width: 32px;
+	height: 32px;
+}
+
+.kurses_box_container {
+	display: flex;
+}
+
+.kurses_box_l_side {
+	width: 41%;
+	height: max-content;
+	border: 5px solid red;
+	display: flex;
+	flex-direction: column;
+}
+.kurses_box_r_side img {
+	position: absolute;
+	border: 2px solid green;
+	transform: translateY(-80px);
+}
+.kurses_box_title {
+	font-family: var(--font1);
+	font-size: 33px;
+	font-weight: 500;
+	line-height: 16.9px;
+	letter-spacing: 0.3px;
+	margin: 15px 0 10px 0;
+}
+.kurses_box_buttons {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 5px 0;
+}
+.kurses_box_btn {
+	height: 35px;
+	padding: 8px 10px;
+	border: 1px solid var(--color2);
+	border-radius: 26px;
+	margin: 3px;
+	color: var(--color2);
+	font-family: var(--font1);
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.04),
+			rgba(255, 255, 255, 0.04)
+		),
+		linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.08) 0%,
+			rgba(255, 255, 255, 0) 31.77%
+		);
+}
+.kurses_box_btn:hover {
+	background: linear-gradient(90deg, #830bfa 0%, #072e94 100%),
+		linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.08) 0%,
+			rgba(255, 255, 255, 0) 31.77%
+		);
+}
+.kurses_box_underline {
+	width: 100%;
+	height: 2px;
+	background: var(--color2);
+}
+.kurses_box_bottom_p {
+	color: var(--color2);
+	margin: 15px 0;
+}
+.kurses_box_tglink {
+	width: 240px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border: 1px solid;
+	border-radius: 50px;
+	background: linear-gradient(
+		266deg,
+		rgb(13, 19, 125) 0%,
+		rgb(9, 12, 188) 100%
+	);
+}
+.kurses_box_tglink img {
+	width: 21px;
+}
+.kurses_box_tglink_p {
+	font-size: 16px;
+}
+.kurses_box_r_side img {
+	width: 436px;
+	height: 382px;
+	transform: translateY(-80deg);
+}
