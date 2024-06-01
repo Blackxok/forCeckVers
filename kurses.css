@@ -10,6 +10,7 @@
 	width: 100%;
 	margin-top: 420px;
 	/* transform: translateY(360px); */
+	padding: 0 calc(var(--size) * 5);
 }
 .kurses_title {
 	font-size: 60px;
@@ -20,6 +21,7 @@
 .kusrses_container {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 .kurses_box {
@@ -126,7 +128,7 @@
 		);
 }
 .kurses_box_underline {
-	width: calc(var(--size) * 12.5);
+	width: 80%;
 	height: 2px;
 	display: block;
 	background: var(--color2);

@@ -1,0 +1,100 @@
+:root {
+	--size: calc(1vw + 1vh);
+	/* width: calc(var(--size) * 10); use */
+	--color1: rgba(11, 4, 20, 1);
+	--color2: rgba(230, 230, 240, 1);
+	--font1: 'TT Firs Neue Trl', sans-serif;
+}
+
+.consult_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	padding: 50px 150px;
+	text-align: center;
+}
+
+.consultation_form {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: black;
+}
+.form_l_side {
+	display: flex;
+	flex-direction: column;
+	flex: 50% 0 0;
+}
+.form_l_side h1 {
+	font-family: var(--font1);
+	font-size: 78px;
+	font-weight: 700;
+	line-height: 69px;
+	text-align: left;
+}
+
+.form_l_side p {
+	padding: 0 300px 0 0;
+	font-family: var(--font1);
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: left;
+}
+
+.fomr_side {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.fomr_side input[type='text'],
+.fomr_side input[type='tel'] {
+	padding: 0 20px;
+	border: 1px solid #ccc;
+	border-radius: 26px;
+	font-size: 16px;
+	width: 494px;
+	height: 57px;
+	font-family: var(--font1);
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: left;
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	margin: 25px 0 5px 5px;
+}
+
+.checkbox-container input {
+	margin-right: 5px;
+}
+
+.fomr_side button {
+	width: 494px;
+	height: 57px;
+	padding: 19px 164px;
+	border-radius: 26px;
+	cursor: pointer;
+	color: #fff;
+	font-family: var(--font1);
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+	background: linear-gradient(72.71deg, #280199 23.39%, #011aff 91.13%),
+		linear-gradient(
+			180deg,
+			rgba(36, 0, 255, 0.08) 0%,
+			rgba(255, 255, 255, 0) 31.77%
+		);
+}
+
+.consultation-form button:hover {
+	background-color: #5a0dab;
+}

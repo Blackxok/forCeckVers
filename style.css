@@ -43,7 +43,7 @@ body {
 }
 
 .home_page {
-	padding: 0 calc(var(--size) * 6);
+	/* padding: 0 calc(var(--size) * 6); */
 }
 
 header:after,
@@ -58,12 +58,14 @@ footer:after,
 .header {
 	width: 100%;
 	/* border: 1px solid red; */
+	padding: 0 calc(var(--size) * 6);
 	height: min-content;
 }
+
 .header_container {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 .l_side {
 	width: 100%;
@@ -81,14 +83,15 @@ footer:after,
 	align-items: center;
 	justify-content: space-evenly;
 	/* border: 1px solid red; */
-	flex-basis: calc(var(--size) * 50);
+	flex-basis: calc(var(--size) * 35);
 }
+
 .courses {
 	color: var(--color2);
-	font-family: 'Fira Sans', sans-serif;
+	font-family: var(--font1);
 	font-size: 14px;
-	font-weight: 500;
-	padding: 10px;
+	font-weight: 400;
+	padding: 10px 20px;
 	border: 1px solid transparent;
 	border-radius: 26px;
 	/* line-height: 20px; */
@@ -108,7 +111,7 @@ footer:after,
 	border-color: var(--color2);
 }
 .kirish {
-	width: calc(var(--size) * 7);
+	width: calc(var(--size) * 4);
 	color: var(--color2);
 	border: 1px solid transparent;
 	border-radius: 26px;
@@ -138,7 +141,7 @@ footer:after,
 	font-weight: 600;
 	line-height: 20px;
 	border-radius: 26px;
-	padding: 10px;
+	padding: 10px 20px;
 	/* text-align: left; */
 }
 

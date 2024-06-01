@@ -6,8 +6,9 @@
 }
 
 .h_home {
-	width: 100%;
+	max-width: 100%;
 	height: min-content;
+	padding: 0 calc(var(--size) * 6);
 }
 .h_content {
 	display: flex;
@@ -29,6 +30,9 @@
 	font-size: 130px;
 	font-weight: 900;
 }
+.home_r_side img {
+	width: calc(var(--size) * 30);
+}
 .home_r_side {
 	width: calc(var(--size) * 35);
 	/* height: calc(var(--size) * 20); */
@@ -42,7 +46,7 @@
 	font-weight: bolder;
 	line-height: 20px;
 	align-items: center;
-	transform: rotate(-23.22deg);
+	transform: rotate(-23.22deg) translate(50px, 70px);
 	left: calc(var(--size) * 24.5);
 	top: calc(var(--size) * 17);
 	/* ///////////////////////// */
