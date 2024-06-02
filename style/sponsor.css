@@ -5,14 +5,19 @@
 	--color2: rgba(230, 230, 240, 1);
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
+.sponsor {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+}
 .sponsor_container {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	width: 100%;
+	max-width: 1500px;
 	height: 600px;
-	padding: 50px 150px;
-	background: #fff;
+	padding: 50px 50px;
 }
 .sponsor__content-title {
 	transform: translateY(45px);

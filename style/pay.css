@@ -5,10 +5,23 @@
 	--color2: rgba(230, 230, 240, 1);
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
+.payment {
+	background: rgb(16, 5, 52);
+	background: linear-gradient(
+		45deg,
+		rgb(11, 3, 36) 0%,
+		rgba(26, 13, 106, 1) 35%,
+		rgb(13, 4, 51) 49%
+	);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .pay_container {
 	width: 100%;
+	max-width: 1500px;
 	height: 530px;
-	padding: 100px 150px;
+	padding: 100px 50px;
 }
 .pay_title {
 	margin-bottom: 50px;
@@ -23,20 +36,11 @@
 	letter-spacing: 0.3px;
 	text-align: center;
 }
-.pay__content {
-	background: rgb(16, 5, 52);
-	background: linear-gradient(
-		45deg,
-		rgb(11, 3, 36) 0%,
-		rgba(26, 13, 106, 1) 35%,
-		rgb(13, 4, 51) 49%
-	);
-}
 .pay__content-container {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	height: auto;
 }
 .pay__content-left {

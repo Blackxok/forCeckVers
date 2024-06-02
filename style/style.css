@@ -56,17 +56,23 @@ footer:after,
 	clear: both;
 }
 .header {
-	width: 100%;
-	/* border: 1px solid red; */
-	padding: 0 calc(var(--size) * 6);
-	height: min-content;
+	/* width: 100%; */
+	/* max-width: 1500px; */
+	display: flex;
+	justify-content: center;
 }
-
+.header_wraper {
+	max-width: 1500px;
+	display: flex;
+}
 .header_container {
+	max-width: 1625px;
+	width: calc(var(--size) * 70);
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 }
+
 .l_side {
 	width: 100%;
 	/* border: 1px solid red; */
@@ -78,12 +84,13 @@ footer:after,
 	/* opacity: 0px; */
 }
 .r_side {
-	width: 100%;
+	/* width: 100%; */
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	flex: 40% 0 0;
 	/* border: 1px solid red; */
-	flex-basis: calc(var(--size) * 35);
+	/* flex-basis: calc(var(--size) * 35); */
 }
 
 .courses {
@@ -111,12 +118,11 @@ footer:after,
 	border-color: var(--color2);
 }
 .kirish {
-	width: calc(var(--size) * 4);
 	color: var(--color2);
 	border: 1px solid transparent;
 	border-radius: 26px;
 	outline: none !important;
-	padding: 10px;
+	padding: 10px 20px;
 	font-family: 'Fira Sans', sans-serif;
 	/* width: var(--size); */
 	background: linear-gradient(
