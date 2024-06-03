@@ -12,11 +12,11 @@
 	position: absolute;
 	background: linear-gradient(
 		113deg,
-		rgba(255, 185, 18, 1) 0%,
-		rgba(212, 29, 103, 1) 27%,
+		rgb(238, 172, 18) 0%,
+		rgb(201, 28, 97) 27%,
 		rgba(141, 16, 231, 1) 62%,
-		rgba(77, 97, 195, 1) 82%,
-		rgba(0, 173, 254, 1) 100%
+		rgb(66, 84, 173) 82%,
+		rgb(0, 152, 223) 100%
 	);
 	font-family: var(--font1);
 	letter-spacing: 0.65px;

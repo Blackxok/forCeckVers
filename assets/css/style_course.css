@@ -1,0 +1,66 @@
+:root {
+  --size: calc(1vw + 1vh);
+  /* width: calc(var(--size) * 10); use */
+  --color1: rgba(11, 4, 20, 1);
+  --color2: rgba(230, 230, 240, 1);
+  --font1: "TT Firs Neue Trl", sans-serif;
+}
+
+* {
+  font-family: var(--font1) !important;
+}
+
+.crs_home_img img {
+  width: 800px !important;
+}
+
+.home_b_bos {
+  width: 260px;
+  height: 130px;
+  border-radius: 20px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.5607843137);
+  background: linear-gradient(45deg, rgba(20, 11, 42, 0.86) 0%, rgb(46, 35, 71) 47%, rgb(19, 7, 35) 100%);
+}
+.home_b_bos img {
+  width: 50px;
+  height: 50px;
+}
+
+.home_bottom {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home_time {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 100px 100px;
+}
+.home_time h1 {
+  font-family: TT Firs Neue;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 57px;
+  text-align: right;
+  text-align: center;
+}
+.home_time h3 {
+  text-align: center;
+  font-family: TT Firs Neue;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 57px;
+  text-align: center;
+}
