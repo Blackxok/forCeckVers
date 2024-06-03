@@ -1,23 +1,3 @@
-// var swiper = new Swiper('.Slider-container', {
-// 	effect: 'cards',
-// 	// effect: 'coverflow',
-// 	grabCursor: true,
-// 	centerdSlides: true,
-// 	loop: true,
-// 	modifier: 2.5,
-// 	cardsEffect: {
-// 		rotate: 100,
-// 		stretch: 0,
-// 		depth: 100,
-// 		modifier: 1,
-// 		slideShadows: true,
-// 	},
-// 	navigation: {
-// 		nextEl: '.swiper-button-next',
-// 		prevEl: '.swiper-button-prev',
-// 	},
-// })
-
 const slider = document.querySelector('.items')
 const slides = document.querySelectorAll('.item')
 const button = document.querySelectorAll('.button')
