@@ -10,17 +10,17 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.cdnfonts.com/css/tt-firs-neue-trl" rel="stylesheet">
 	<!-- css link -->
-	<link rel="stylesheet" href="./style.css">
-	<link rel="stylesheet" href="./home.css">
-	<link rel="stylesheet" href="./fishka.css">
-	<link rel="stylesheet" href="./kurses.css">
-	<link rel="stylesheet" href="./fidback.css">
-	<link rel="stylesheet" href="./consult.css">
-	<link rel="stylesheet" href="./sponsor.css">
-	<link rel="stylesheet" href="./pay.css">
-	<link rel="stylesheet" href="./group.css">
-	<link rel="stylesheet" href="./location.css">
-	<link rel="stylesheet" href="./footer.css">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="./style/home.css">
+	<link rel="stylesheet" href="./style/fishka.css">
+	<link rel="stylesheet" href="./style/kurses.css">
+	<link rel="stylesheet" href="./style/fidback.css">
+	<link rel="stylesheet" href="./style/consult.css">
+	<link rel="stylesheet" href="./style/sponsor.css">
+	<link rel="stylesheet" href="./style/pay.css">
+	<link rel="stylesheet" href="./style/group.css">
+	<link rel="stylesheet" href="./style/location.css">
+	<link rel="stylesheet" href="./style/footer.css">
 	<!-- cdn -->
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<!-- js link -->
@@ -31,16 +31,18 @@
 
 <body>
 	<header class="header">
-		<div class="header_container">
-			<div class="l_side">
-				<div class="logo">
-					<img src="./imgs/Logo.svg" alt="">
+		<div class="header_wraper">
+			<div class="header_container">
+				<div class="l_side">
+					<div class="logo">
+						<img src="./imgs/Logo.svg" alt="">
+					</div>
 				</div>
-			</div>
-			<div class="r_side">
-				<p class="courses">Barcha kurslar</p>
-				<button class="kirish">Kirish</button>
-				<p class="number">+998 101 92 40</p>
+				<div class="r_side">
+					<a href="./courses.html" class="courses">Barcha kurslar</a>
+					<button class="kirish">Kirish</button>
+					<p class="number">+998 101 92 40</p>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -61,48 +63,48 @@
 		</div>
 	</main>
 	<section class="fishkalar">
-		<div class="fishka_container">
-			<div class="fishka_row">
-				<p>#design</p>
-				<p>#motion</p>
-				<p>#gilroy</p>
-				<p>#saturation</p>
-				<p>#edit</p>
-				<p>#sound</p>
-				<p>#typography</p>
-				<p>#color</p>
-			</div>
-			<div class="fishka_row talim_boxes">
-				<div class="talim_box">
-					<img src="./imgs/talim1.svg" alt="talim1 svg">
-					<p class="talim_box_title">Sifatli ta‘lim</p>
-					<p class="talim_box_text">Davr talabi bo’lgan darslar va
-						tajribali ustozlar.</p>
+		<div class="fishka_wraper">
+			<div class="fishka_container">
+				<div class="fishka_row">
+					<p>#design</p>
+					<p>#motion</p>
+					<p>#gilroy</p>
+					<p>#saturation</p>
+					<p>#edit</p>
+					<p>#sound</p>
+					<p>#typography</p>
+					<p>#color</p>
 				</div>
-				<div class="talim_box">
-					<img src="./imgs/talim2.svg" alt="talim1 svg">
-					<p class="talim_box_title">Tajriba oshirish</p>
-					<p class="talim_box_text">Muvaffaqiyatli bitirgan o‘quvchilarga
-						tajriba oshirish imkoniyati.</p>
+				<div class="fishka_row talim_boxes">
+					<div class="talim_box">
+						<img src="./imgs/talim1.svg" alt="talim1 svg">
+						<p class="talim_box_title">Sifatli ta‘lim</p>
+						<p class="talim_box_text">Davr talabi bo’lgan darslar va
+							tajribali ustozlar.</p>
+					</div>
+					<div class="talim_box">
+						<img src="./imgs/talim2.svg" alt="talim1 svg">
+						<p class="talim_box_title">Tajriba oshirish</p>
+						<p class="talim_box_text">Muvaffaqiyatli bitirgan o‘quvchilarga
+							tajriba oshirish imkoniyati.</p>
+					</div>
+					<div class="talim_box">
+						<img src="./imgs/talim3.svg" alt="talim1 svg">
+						<p class="talim_box_title">Sertifikat</p>
+						<p class="talim_box_text">Muvaffaqiyatli bitirgan o‘quvchilarga
+							Diplom va Sertifikat taqdim etiladi.</p>
+					</div>
 				</div>
-
-				<div class="talim_box">
-					<img src="./imgs/talim3.svg" alt="talim1 svg">
-					<p class="talim_box_title">Sertifikat</p>
-					<p class="talim_box_text">Muvaffaqiyatli bitirgan o‘quvchilarga
-						Diplom va Sertifikat taqdim etiladi.</p>
+				<div class="fishka_row">
+					<p>#motion</p>
+					<p>#color</p>
+					<p>#saturation</p>
+					<p>#edit</p>
+					<p>#typography</p>
+					<p>#sound</p>
+					<p>#gilroy</p>
+					<p>#design</p>
 				</div>
-
-			</div>
-			<div class="fishka_row">
-				<p>#motion</p>
-				<p>#color</p>
-				<p>#saturation</p>
-				<p>#edit</p>
-				<p>#typography</p>
-				<p>#sound</p>
-				<p>#gilroy</p>
-				<p>#design</p>
 			</div>
 		</div>
 	</section>
@@ -114,7 +116,7 @@
 					<img src="./imgs/fire_max_gr.svg" alt="">
 					<p>ENG MASHHUR</p>
 				</div>
-				<div class="kurses_box_container">
+				<div class="kurses_box_container big_con">
 					<div class="kurses_box_l_side">
 						<h1 class="kurses_box_title">Grafik dizayn</h1>
 						<div class="kurses_box_buttons">
@@ -179,7 +181,7 @@
 					<img src="./imgs/fire_max_gr.svg" alt="">
 					<p>ENG MASHHUR</p>
 				</div>
-				<div class="kurses_box_container">
+				<div class="kurses_box_container big_con">
 					<div class="kurses_box_l_side">
 						<h1 class="kurses_box_title">Grafik dizayn</h1>
 						<div class="kurses_box_buttons">
@@ -366,7 +368,7 @@
 				<!-- title -->
 			</div>
 	</section>
-	<section class="pay__content">
+	<section class="payment">
 		<!-- container -->
 		<div class="pay_container">
 			<div class="pay_title">
@@ -479,7 +481,7 @@
 					referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 		</div>
 	</section>
-	<footer>
+	<footer class="footer">
 		<div class="footer_container">
 			<div class="col_11">
 				<img src="./imgs/Logo.svg" alt="logo_footer">

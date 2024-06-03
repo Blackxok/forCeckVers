@@ -5,11 +5,18 @@
 	--color2: rgba(230, 230, 240, 1);
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .footer_container {
+	width: 100%;
+	max-width: 1500px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 80px 300px;
+	padding: 80px 100px;
 }
 .col_11::after {
 	content: ' ';

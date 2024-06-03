@@ -9,8 +9,11 @@
 .kurslar {
 	width: 100%;
 	margin-top: 420px;
-	/* transform: translateY(360px); */
 	padding: 0 calc(var(--size) * 5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 .kurses_title {
 	font-size: 60px;
@@ -19,14 +22,15 @@
 	margin: 30px;
 }
 .kusrses_container {
+	max-width: 1500px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 .kurses_box {
-	width: 840px;
-	height: 310px;
+	width: 1000px;
+	max-height: 310px;
 	border-radius: 20px;
 	padding: 35px;
 	margin: 20px 10px;
@@ -78,13 +82,18 @@
 
 .kurses_box_container {
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.big_con {
+	transform: translateY(-90px);
 }
 
 .kurses_box_l_side {
 	width: 45%;
 	display: flex;
 	flex-direction: column;
-	transform: translateY(-40px);
 }
 .kurses_box_title {
 	font-family: var(--font1);
@@ -157,9 +166,13 @@
 .kurses_box_tglink_p {
 	font-size: 16px;
 }
+.kurses_box_r_side {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .kurses_box_r_side img {
-	width: 436px;
-	height: 382px;
-	position: absolute;
-	transform: translateY(-85px);
+	width: 480px;
+	height: 380px;
+	/* position: absolute; */
 }

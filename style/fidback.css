@@ -19,6 +19,9 @@
 		rgba(13, 41, 128, 0.7344187675070029) 61%,
 		rgba(4, 30, 82, 0.8212535014005602) 76%
 	);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .fidback::after {
 	content: '';
@@ -32,10 +35,13 @@
 	);
 }
 .fidback_container {
+	width: 100%;
+	max-width: 1500px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	padding: 0 50px;
 }
 .fidback_title h1 {
 	font-family: var(--font1);
@@ -48,6 +54,10 @@
 .fidback_carusel {
 	width: 100%;
 	height: 650px;
+}
+
+.fidback_comment {
+	width: 100%;
 }
 
 /* ------------------------------------------ */
@@ -172,6 +182,7 @@
 	margin-top: 80px !important;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .fbc_com_boxes p {

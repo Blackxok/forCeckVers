@@ -6,19 +6,24 @@
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
 
-.consult_container {
+.consult {
+	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: white;
-	padding: 50px 150px;
+}
+
+.consult_container {
+	max-width: 1500px;
+	width: 100%;
+	padding: 50px 50px;
 	text-align: center;
 }
 
 .consultation_form {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	color: black;
 }
 .form_l_side {

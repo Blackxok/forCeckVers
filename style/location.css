@@ -16,8 +16,13 @@
 		rgba(16, 69, 124, 1) 75%,
 		rgba(26, 107, 255, 1) 87%
 	);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .location_container {
+	width: 100%;
+	max-width: 1500px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
