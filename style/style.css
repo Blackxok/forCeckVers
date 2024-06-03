@@ -5,6 +5,19 @@
 	--color2: rgba(230, 230, 240, 1);
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
+.active {
+	color: var(--color2) !important;
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.04),
+			rgba(255, 255, 255, 0.04)
+		),
+		linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.08) 0%,
+			rgba(255, 255, 255, 0) 31.77%
+		) !important;
+}
 *,
 *:after,
 *:before {
@@ -41,11 +54,8 @@ body {
 	background: rgba(11, 4, 20, 1);
 	color: aliceblue;
 }
-
-.home_page {
-	/* padding: 0 calc(var(--size) * 6); */
-}
-
+/* .home_page {
+} */
 header:after,
 .container:after,
 footer:after,
@@ -56,10 +66,9 @@ footer:after,
 	clear: both;
 }
 .header {
-	/* width: 100%; */
-	/* max-width: 1500px; */
 	display: flex;
 	justify-content: center;
+	padding: 20px 0;
 }
 .header_wraper {
 	max-width: 1500px;
@@ -75,44 +84,29 @@ footer:after,
 
 .l_side {
 	width: 100%;
-	/* border: 1px solid red; */
 }
 .logo {
 	width: 120px;
 	height: 44px;
-	/* gap: 0px; */
-	/* opacity: 0px; */
 }
 .r_side {
-	/* width: 100%; */
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 	flex: 40% 0 0;
-	/* border: 1px solid red; */
-	/* flex-basis: calc(var(--size) * 35); */
 }
 
 .courses {
+	padding: 10px 20px;
+	border: 1px solid transparent;
+	border-radius: 26px;
+	background: transparent;
+}
+.courses a {
 	color: var(--color2);
 	font-family: var(--font1);
 	font-size: 14px;
 	font-weight: 400;
-	padding: 10px 20px;
-	border: 1px solid transparent;
-	border-radius: 26px;
-	/* line-height: 20px; */
-	/* text-align: left; */
-	background: linear-gradient(
-			0deg,
-			rgba(255, 255, 255, 0.04),
-			rgba(255, 255, 255, 0.04)
-		),
-		linear-gradient(
-			180deg,
-			rgba(255, 255, 255, 0.08) 0%,
-			rgba(255, 255, 255, 0) 31.77%
-		);
 }
 .courses:hover {
 	border-color: var(--color2);
@@ -123,32 +117,23 @@ footer:after,
 	border-radius: 26px;
 	outline: none !important;
 	padding: 10px 20px;
-	font-family: 'Fira Sans', sans-serif;
-	/* width: var(--size); */
-	background: linear-gradient(
-			0deg,
-			rgba(255, 255, 255, 0.04),
-			rgba(255, 255, 255, 0.04)
-		),
-		linear-gradient(
-			180deg,
-			rgba(255, 255, 255, 0.08) 0%,
-			rgba(255, 255, 255, 0) 31.77%
-		);
+	font-family: var(--size);
+	background: transparent;
 }
 .kirish:hover {
 	border-color: var(--color2);
 }
 
 .number {
-	color: var(--color2);
+	border: 1px solid transparent;
 	font-family: var(--font1);
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 20px;
 	border-radius: 26px;
 	padding: 10px 20px;
-	/* text-align: left; */
+	color: var(--color2);
+	background: transparent;
 }
 
 .number:hover {
