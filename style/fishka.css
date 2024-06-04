@@ -25,15 +25,19 @@
 	justify-content: center;
 }
 .fishka_container {
-	width: 100%;
+	width: 100vw;
+	height: auto;
+	/* overflow: hidden; */
 	max-width: 1700px;
 	height: 360px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-direction: column;
+	flex-grow: 1;
 }
 .fishka_wraper {
+	height: auto;
 	width: 100%;
 	max-width: 1500px;
 	display: flex;
@@ -46,6 +50,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
 }
 .talim_boxes {
 	/* padding: 10px; */

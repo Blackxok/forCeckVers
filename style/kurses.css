@@ -87,6 +87,8 @@
 }
 
 .big_con {
+	display: flex;
+	flex-wrap: wrap;
 	transform: translateY(-90px);
 }
 
