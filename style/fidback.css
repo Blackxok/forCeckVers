@@ -52,7 +52,8 @@
 	text-align: center;
 }
 .fidback_carusel {
-	width: 100%;
+	/* overflow: hidden; */
+	width: 100vw;
 	height: 650px;
 }
 
@@ -168,6 +169,7 @@
 	padding: 30px 20px;
 	margin: 15px;
 	display: flex;
+	flex-grow: 1;
 	align-items: center;
 	flex-direction: column;
 	background: rgba(255, 255, 255, 0);
@@ -181,6 +183,8 @@
 .fbc_com_wraper {
 	margin-top: 80px !important;
 	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
 	align-items: center;
 	justify-content: space-between;
 }

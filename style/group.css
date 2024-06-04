@@ -18,7 +18,7 @@
 
 .gr_container {
 	width: 100%;
-	height: 872px;
+	height: 872px auto;
 	max-width: 1500px;
 	display: flex;
 	align-items: center;
