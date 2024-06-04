@@ -33,9 +33,7 @@
 }
 
 .wp_l_side {
-  /* overflow: hidden; */
   display: flex;
-  flex-wrap: wrap;
 }
 
 .l_side_li {

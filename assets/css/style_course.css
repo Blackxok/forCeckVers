@@ -3,8 +3,7 @@
 }
 
 .crs_home_img img {
-  overflow: hidden;
-  width: 80vw !important;
+  width: 800px !important;
 }
 
 .home_b_bos {
@@ -16,53 +15,20 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  flex-grow: 1;
   border: 1px solid rgba(255, 255, 255, 0.5607843137);
   background: linear-gradient(45deg, rgba(20, 11, 42, 0.86) 0%, rgb(46, 35, 71) 47%, rgb(19, 7, 35) 100%);
 }
-
-@media only screen and (max-width: 818px) {
-  .header_container{
-    
-  }
-  .home_bottom{
-    float: none;
-  }
-  .h_content{
-    width: 100%;
-    overflow: hidden;
-    flex-direction: column;
-    flex-wrap: wrap;
-    overflow: hidden;
-  }
-
-  .home_time{
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 50px;
-  }
-  
-  .wp_item{
-    flex-direction: column;
-  }
-  
-}
-
-
 .home_b_bos img {
   width: 50px;
   height: 50px;
 }
 
 .home_bottom {
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
   max-width: 1500px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
 }
 
 .home_time {
