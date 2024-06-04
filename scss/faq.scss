@@ -1,0 +1,101 @@
+$size: calc(1vw + 1vh);
+$color1: rgba(11, 4, 20, 1);
+$color2: rgba(230, 230, 240, 1);
+$font1: 'TT Firs Neue Trl', sans-serif;
+
+.faq {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgb(61, 15, 68);
+	background: linear-gradient(
+		146deg,
+		rgba(61, 15, 68, 0.5545997191011236) 0%,
+		rgba(18, 19, 74, 1) 23%,
+		rgba(18, 72, 111, 0.8804424157303371) 45%,
+		rgba(0, 51, 115, 1) 66%,
+		rgba(67, 20, 80, 1) 83%,
+		rgba(20, 30, 80, 1) 100%
+	);
+}
+.faq_container {
+	max-width: 1400px;
+	padding: 50px 0;
+}
+.faq_title {
+	h1 {
+		font-family: $font1;
+		font-size: 60px;
+		font-weight: 600;
+		line-height: 57px;
+		text-align: center;
+	}
+}
+.faq_sides {
+	width: 1400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 50px 0;
+}
+
+.faq_r_side {
+	flex: 50% 0 0;
+}
+.r_side_items {
+	margin: 15px 0;
+	padding: 10px 25px;
+	// justify-content: space-between;
+	.r_side_item_title {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-family: $font1;
+		font-size: 19px;
+		font-weight: 600;
+		line-height: 25px;
+		margin: 10px 0;
+		user-select: none;
+		&::after {
+			content: '+';
+			width: 50px;
+			height: 50px;
+			font-size: 50px;
+			font-weight: 300;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	.faq_item_togle {
+		display: none;
+		font-family: $font1;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: left;
+		user-select: none;
+		padding-right: 50px;
+	}
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.123);
+	backdrop-filter: blur(3.1px);
+	-webkit-backdrop-filter: blur(3.1px);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.r_side_item_title.active::after {
+	content: '-';
+	width: 50px;
+	height: 50px;
+	font-size: 50px;
+	font-weight: 300;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.rside
