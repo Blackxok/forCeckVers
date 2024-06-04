@@ -51,8 +51,6 @@
 	line-height: 20px;
 	align-items: center;
 	transform: rotate(-23.22deg) translate(550px, 70px);
-	-webkit-text-stroke-width: 6px;
-	-webkit-text-stroke-color: #1010e7;
 }
 
 .green_light {
