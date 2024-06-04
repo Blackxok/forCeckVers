@@ -7,7 +7,7 @@
 }
 
 .fishkalar {
-	width: 100%;
+	width: 100vw;
 	height: 360px;
 	position: absolute;
 	background: linear-gradient(
@@ -69,6 +69,7 @@
 	width: 322px;
 	height: 170px;
 	display: flex;
+	flex-grow: 1;
 	align-items: center;
 	justify-content: space-evenly;
 	text-align: center;
