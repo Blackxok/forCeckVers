@@ -17,14 +17,11 @@
   width: 100%;
   max-width: 1500px;
   padding: 100px 0;
-}
-
-.curse_trailer_top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.curse_trailer_top img {
+.trailer_container img {
   width: 620px;
   max-width: 620px;
 }

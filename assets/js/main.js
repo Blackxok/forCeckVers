@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-	var buttons = document.querySelectorAll('.nav_btn')
+	let buttons = document.querySelectorAll('.nav_btn')
+	let number_item = document.querySelectorAll('.l_d_num')
 
 	buttons.forEach(function (button) {
 		button.addEventListener('click', function () {
@@ -8,5 +9,11 @@ document.addEventListener('DOMContentLoaded', function () {
 			})
 			this.classList.add('active')
 		})
+	})
+
+	// console.log(detail_item)
+
+	number_item.forEach((e, x) => {
+		e.innerHTML = x + 1
 	})
 })

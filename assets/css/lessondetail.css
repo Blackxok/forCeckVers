@@ -1,0 +1,109 @@
+.LessonDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, rgba(20, 11, 42, 0.86) 0%, rgb(46, 35, 71) 47%, rgb(19, 7, 35) 100%);
+}
+.LessonDetail .l_detail_container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 50px 0 0 0;
+}
+.LessonDetail .l_detail_container .lesson_box_title {
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 57px;
+  text-align: center;
+}
+.LessonDetail .l_detail_container .lesson_box {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 50px 0 100px 0;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side .detail_title {
+  padding: 20px;
+  font-family: TT Firs Neue;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side .lesson_detail {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side .lesson_detail ._for2 {
+  transform: translateX(23px) !important;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side .lesson_detail .reverse_strelka {
+  transform: rotate(180deg) translateX(18px);
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side .lesson_detail img {
+  width: 45px;
+  height: 45px;
+  transform: translateX(18px);
+  z-index: 22;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side .lesson_detail .l_d_num {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 18.5px;
+  text-align: center;
+  border: 2px solid rgba(143, 143, 143, 0.508);
+  border-radius: 50px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 5.65%, rgba(255, 255, 255, 0.49) 94.35%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 33;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_l_side .lesson_detail .l_detail {
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+  border: 1px solid rgba(143, 143, 143, 0.508);
+  padding: 0 20px 0 40px;
+  transform: translateX(-23px);
+  border-radius: 10px;
+  background: linear-gradient(68.8deg, rgba(255, 255, 255, 0.2) 10.42%, rgba(255, 255, 255, 0.035) 77.11%);
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_r_side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LessonDetail .l_detail_container .lesson_box .lesson_b_r_side img {
+  width: 470px;
+  height: 400px;
+  top: 247px;
+  left: 818px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.midle_lesson_box {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 7px;
+  border-radius: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 102, 255, 0.57) 50.5%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  filter: blur(5.5px) !important;
+  -webkit-backdrop-filter: blur(5.5px);
+}
