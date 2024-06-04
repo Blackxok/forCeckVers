@@ -1,10 +1,9 @@
-:root {
-	--size: calc(1vw + 1vh);
-	/* width: calc(var(--size) * 10); use */
-	--color1: rgba(11, 4, 20, 1);
-	--color2: rgba(230, 230, 240, 1);
-	--font1: 'TT Firs Neue Trl', sans-serif;
-}
+$size: calc(1vw + 1vh);
+$color1: rgba(11, 4, 20, 1);
+$color2: rgba(230, 230, 240, 1);
+$font1: 'TT Firs Neue Trl', sans-serif;
+
+// 
 * {
 	font-family: var(--font1) !important;
 }
