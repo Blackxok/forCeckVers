@@ -7,7 +7,8 @@
 }
 
 .kurslar {
-	width: 100%;
+	width: 100vw;
+	height: auto;
 	margin-top: 420px;
 	padding: 0 calc(var(--size) * 5);
 	display: flex;
@@ -24,6 +25,7 @@
 .kusrses_container {
 	max-width: 1500px;
 	display: flex;
+	width: 100%;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -42,6 +44,18 @@
 		rgb(19, 7, 35) 100%
 	);
 }
+
+@media screen and (max-width: 795px) {
+	.kurses_box{
+		width: 500px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	
+	
+}
+
 .box_2 {
 	width: 368px;
 	height: 310px;
@@ -81,20 +95,29 @@
 }
 
 .kurses_box_container {
+	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 }
 
+@media screen and(max-width: 1212px) {
+		
+}
+
 .big_con {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	transform: translateY(-90px);
 }
 
 .kurses_box_l_side {
-	width: 45%;
 	display: flex;
+	flex-grow: 1;
 	flex-direction: column;
 }
+
 .kurses_box_title {
 	font-family: var(--font1);
 	font-size: 33px;
@@ -172,7 +195,7 @@
 	justify-content: center;
 }
 .kurses_box_r_side img {
-	width: 480px;
-	height: 380px;
+	width: auto;
+	height: auto;
 	/* position: absolute; */
 }

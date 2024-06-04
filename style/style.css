@@ -70,9 +70,12 @@ footer:after,
 .header_wraper {
 	max-width: 1500px;
 	display: flex;
+	flex-wrap: wrap;
 }
 .header_container {
-	max-width: 1625px;
+	overflow: hidden;
+	width: 100%;
+	overflow: hidden;
 	width: calc(var(--size) * 70);
 	display: flex;
 	align-items: center;
@@ -80,13 +83,16 @@ footer:after,
 }
 
 .l_side {
-	width: 100%;
+	display: inline;
+	/* width: 100%; */
 }
 .logo {
 	width: 120px;
 	height: 44px;
 }
 .r_side {
+	position: relative;
+	right: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
