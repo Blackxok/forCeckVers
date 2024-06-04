@@ -1,0 +1,49 @@
+.workplace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 50px 0 10px 0;
+}
+
+.wp_container {
+  color: rgb(51, 51, 51);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.wp_title {
+  margin: auto;
+}
+.wp_title h1 {
+  font-family: TT Firs Neue;
+  font-size: 59px;
+  font-weight: 600;
+  line-height: 57px;
+  text-align: center;
+}
+
+.wp_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wp_l_side {
+  display: flex;
+}
+
+.l_side_li {
+  transform: translateX(50px);
+}
+.l_side_li li {
+  font-family: TT Firs Neue;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  list-style: disc;
+}
