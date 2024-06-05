@@ -1,12 +1,7 @@
+//////////////////////////////////// nav
 document.addEventListener('DOMContentLoaded', function () {
-<<<<<<< HEAD
-	let buttons = document.querySelectorAll('.nav_btn')
 	let number_item = document.querySelectorAll('.l_d_num')
-
-=======
-	//////////////////////////////////// nav
-	var buttons = document.querySelectorAll('.nav_btn')
->>>>>>> a299558bb184407b21829046209d116c533ed91f
+	let buttons = document.querySelectorAll('.nav_btn')
 	buttons.forEach(function (button) {
 		button.addEventListener('click', function () {
 			buttons.forEach(function (btn) {
@@ -15,13 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
 			this.classList.add('active')
 		})
 	})
-<<<<<<< HEAD
 
-	// console.log(detail_item)
-
+	//////////////////////////////////// item numbers lesson detail section
 	number_item.forEach((e, x) => {
 		e.innerHTML = x + 1
-=======
+	})
 	//////////////////////////////////// outside effect
 	const color = 'rgba(0, 26, 255, 1)'
 	const r = 10
@@ -38,22 +31,17 @@ document.addEventListener('DOMContentLoaded', function () {
 			(i == n - 1 ? '' : ',')
 	}
 	document.querySelector('.va').style.textShadow = str
-	//////////////////////////////////// outside effect
 })
+//////////////////////////////////// outside effect
 const h3 = document.querySelectorAll('.r_side_item_title')
-
 h3.forEach(h3_item => {
 	h3_item.addEventListener('click', () => {
-		const p = h3_item.nextElementSibling // Get the next paragraph element
+		const p = h3_item.nextElementSibling
 		p.style.display = p.style.display
 		if (p.style.display === 'none') {
 			p.style.display = 'block'
-			console.log(h3_item)
-			h3_item::after
 		} else {
 			p.style.display = 'none'
-			// h3_item.classList.remove('.active')
 		}
->>>>>>> a299558bb184407b21829046209d116c533ed91f
 	})
 })
