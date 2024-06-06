@@ -1,12 +1,15 @@
+$size: calc(1vw + 1vh);
+$color1: rgba(11, 4, 20, 1);
+$color2: rgba(230, 230, 240, 1);
+$font1: 'TT Firs Neue Trl', sans-serif;
+
 .mentor_port {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	.mentor_port_container {
-		width: 100%;
-		max-width: 1500px;
-		border: 2px solid red;
-		padding: 70px 0;
+		max-width: 1400px;
+		padding: 70px 30px;
 		.mentor_port_title {
 			h1 {
 				font-family: TT Firs Neue;
@@ -17,12 +20,32 @@
 			}
 		}
 		.mentor_port_boxes {
-			margin: 70px 0;
+			margin: 50px 0 70px 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
 		}
 	}
 }
 .mentor_port_box {
+	width: min-content;
+	position: relative;
+	margin: 0 10px;
 	img {
-		position: absolute;
+		transform: translate(-15px, 50px);
+		z-index: 11;
+		position: relative;
 	}
+	a {
+		position: relative;
+		font-size: 23px;
+		font-weight: 500;
+		color: $color2;
+		margin: 0 10px;
+		z-index: 22;
+	}
+}
+.mentor_port_box a:nth-child(3) {
+	font-size: 16px;
+	font-weight: 200;
 }

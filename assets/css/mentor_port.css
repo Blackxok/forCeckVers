@@ -4,10 +4,8 @@
   justify-content: center;
 }
 .mentor_port .mentor_port_container {
-  width: 100%;
-  max-width: 1500px;
-  border: 2px solid red;
-  padding: 70px 0;
+  max-width: 1400px;
+  padding: 70px 30px;
 }
 .mentor_port .mentor_port_container .mentor_port_title h1 {
   font-family: TT Firs Neue;
@@ -17,9 +15,32 @@
   text-align: center;
 }
 .mentor_port .mentor_port_container .mentor_port_boxes {
-  margin: 70px 0;
+  margin: 50px 0 70px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.mentor_port_box {
+  width: min-content;
+  position: relative;
+  margin: 0 10px;
+}
 .mentor_port_box img {
-  position: absolute;
+  transform: translate(-15px, 50px);
+  z-index: 11;
+  position: relative;
+}
+.mentor_port_box a {
+  position: relative;
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(230, 230, 240);
+  margin: 0 10px;
+  z-index: 22;
+}
+
+.mentor_port_box a:nth-child(3) {
+  font-size: 16px;
+  font-weight: 200;
 }

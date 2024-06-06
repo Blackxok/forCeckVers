@@ -7,7 +7,7 @@
   background: linear-gradient(238deg, rgb(18, 20, 32) 29%, rgb(120, 87, 211) 50%, rgb(117, 67, 144) 83%, rgb(26, 25, 26) 100%);
 }
 .about .about_container {
-  max-width: 1500px;
+  max-width: 1400px;
   padding: 80px 0;
   display: flex;
   align-items: center;
@@ -47,7 +47,6 @@
   margin: 23px 0;
 }
 .about .about_container .about_r_side .about_r_bottom {
-  width: 100%;
   border: 1px solid rgb(54, 54, 54);
   border-radius: 0 0 20px 20px;
   padding: 18px 30px 30px 30px;
