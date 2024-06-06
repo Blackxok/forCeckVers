@@ -1,0 +1,32 @@
+.mentor_h_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.mentor_gl_p {
+  font-size: 150px;
+}
+
+.h_mentor {
+  background: linear-gradient(90deg, #830bfa 0%, #072e94 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 31.77%);
+}
+
+.mentor_h_l_side {
+  max-width: 1500px;
+  position: absolute;
+  transform: translate(10px);
+}
+.mentor_h_l_side h1 {
+  font-size: 150px !important;
+}
+
+.mentor_h_r_side {
+  transform: translateX(500px);
+}
+.mentor_h_r_side img {
+  width: 750px;
+  height: 750px;
+}

@@ -90,10 +90,10 @@ footer:after,
 	width: 120px;
 	height: 44px;
 }
-.r_side {
-	position: relative;
+
+.r_sidee {
 	right: 50px;
-	display: flex;
+	display: flex !important;
 	align-items: center;
 	justify-content: space-evenly;
 	flex: 40% 0 0;

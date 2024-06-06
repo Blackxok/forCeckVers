@@ -1,0 +1,102 @@
+$size: calc(1vw + 1vh);
+$color1: rgba(11, 4, 20, 1);
+$color2: rgba(230, 230, 240, 1);
+$font1: 'TT Firs Neue Trial Medium', sans-serif;
+
+.about {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 100px;
+	background: rgb(18, 20, 32);
+	background: linear-gradient(
+		238deg,
+		rgba(18, 20, 32, 1) 29%,
+		rgba(53, 38, 149, 1) 71%,
+		rgba(117, 67, 144, 1) 83%,
+		rgba(47, 45, 47, 1) 100%
+	);
+	.about_container {
+		border: 1px solid red;
+		max-width: 1500px;
+		padding: 80px 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.about_r_side {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			margin: 0 70px;
+			.about_r_top {
+				padding: 18px 30px 30px 30px;
+				border: 1px solid rgb(54, 54, 54);
+				border-radius: 20px 20px 0 0;
+
+				.about_r_top_title {
+					font-family: $font1 !important;
+					font-size: 24px;
+					font-weight: 500;
+					line-height: 30.96px;
+					text-align: left;
+					margin: 23px 0;
+				}
+				.about_r_top_p,
+				.about_r_top_p2 {
+					font-family: $font1 !important;
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 24px;
+					text-align: left;
+					letter-spacing: 2px;
+				}
+				.about_r_top_p {
+					font-weight: 600 !important;
+					margin: 23px 0;
+				}
+			}
+			.about_r_bottom {
+				width: 100%;
+				border: 1px solid rgb(54, 54, 54);
+				border-radius: 0 0 20px 20px;
+				padding: 18px 30px 30px 30px;
+
+				.about_r_bottom_title {
+					font-family: $font1 !important;
+					font-size: 24px;
+					font-weight: 500;
+					line-height: 30.96px;
+					text-align: left;
+					margin: 23px 0;
+				}
+				.about_r_bottom_items {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					flex-wrap: wrap;
+					p {
+						font-family: TT Firs Neue;
+						font-size: 16px;
+						font-weight: 500;
+						line-height: 24px;
+						text-align: left;
+						flex: 50% 0 0;
+						margin: 5px 0;
+					}
+				}
+			}
+		}
+	}
+}
+.about_r_bottom_icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.about_r_bottom_icons_box {
+		flex: 60% 0 0;
+	}
+	button {
+		flex: 20% 0 0;
+		margin: 0 10px;
+	}
+}
