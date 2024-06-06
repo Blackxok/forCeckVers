@@ -9,7 +9,7 @@
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
 .crs_home_img img {
-	width: 800px !important;
+	width: var(--size) * 10;
 }
 .home_b_bos {
 	width: 260px;
