@@ -12,12 +12,11 @@ $font1: 'TT Firs Neue Trial Medium', sans-serif;
 	background: linear-gradient(
 		238deg,
 		rgba(18, 20, 32, 1) 29%,
-		rgba(53, 38, 149, 1) 71%,
+		rgb(120, 87, 211) 50%,
 		rgba(117, 67, 144, 1) 83%,
-		rgba(47, 45, 47, 1) 100%
+		rgb(26, 25, 26) 100%
 	);
 	.about_container {
-		border: 1px solid red;
 		max-width: 1500px;
 		padding: 80px 0;
 		display: flex;
@@ -27,10 +26,11 @@ $font1: 'TT Firs Neue Trial Medium', sans-serif;
 			display: flex;
 			justify-content: space-between;
 			flex-direction: column;
-			margin: 0 70px;
+			margin: 0 0 0 70px;
 			.about_r_top {
 				padding: 18px 30px 30px 30px;
 				border: 1px solid rgb(54, 54, 54);
+				border-bottom: none;
 				border-radius: 20px 20px 0 0;
 
 				.about_r_top_title {
@@ -93,10 +93,33 @@ $font1: 'TT Firs Neue Trial Medium', sans-serif;
 	align-items: center;
 	justify-content: space-between;
 	.about_r_bottom_icons_box {
-		flex: 60% 0 0;
+		flex: 25% 0 0;
+		background: black;
+		border-radius: 50px;
+		padding: 10px 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	button {
 		flex: 20% 0 0;
 		margin: 0 10px;
+		padding: 15px 0px;
+		border-radius: 10px;
+		font-family: $font1;
+		transform: translateX(-10px);
+		border: 1px solid
+			linear-gradient(135.66deg, #ffffff 28.87%, rgba(0, 0, 255, 0) 76.42%) !important;
+		background: rgb(29, 29, 29);
+		a {
+			color: $color2 !important;
+		}
 	}
 }
+
+.about_r_bottom_icons button:nth-child(2) {
+	transform: translateX(45px);
+}
+// .about_r_bottom_icons button:nth-child(3) {
+// 	transform: translateX(-15px);
+// }

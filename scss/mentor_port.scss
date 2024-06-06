@@ -1,0 +1,28 @@
+.mentor_port {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.mentor_port_container {
+		width: 100%;
+		max-width: 1500px;
+		border: 2px solid red;
+		padding: 70px 0;
+		.mentor_port_title {
+			h1 {
+				font-family: TT Firs Neue;
+				font-size: 60px;
+				font-weight: 600;
+				line-height: 57px;
+				text-align: center;
+			}
+		}
+		.mentor_port_boxes {
+			margin: 70px 0;
+		}
+	}
+}
+.mentor_port_box {
+	img {
+		position: absolute;
+	}
+}
