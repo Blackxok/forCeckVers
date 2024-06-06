@@ -34,14 +34,14 @@
 }
 .home_bottom {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 .home_time {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -83,14 +83,14 @@
 
 .trailer_container {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	padding: 100px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 .trailer_container img {
-	width: 620px;
+	width: calc(var(--size) * 10);
 	max-width: 620px;
 }
 
@@ -321,8 +321,8 @@
 	);
 }
 .portfolio .port_container {
-	width: 1450px;
-	max-width: 1500px;
+	width: 100%;
+	max-width: 1200px;
 	padding: 50px 0;
 }
 .port_title h1 {
@@ -346,6 +346,7 @@
 /* faq frecuently asq----------------------------------------------- */
 /* faq frecuently asq----------------------------------------------- */
 .faq {
+	width: 100% !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -361,8 +362,12 @@
 	);
 }
 .faq_container {
-	max-width: 1400px;
+	max-width: 1200px;
 	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
 }
 .faq_title h1 {
 	font-family: var(--font1);
@@ -372,7 +377,6 @@
 	text-align: center;
 }
 .faq_sides {
-	width: 1400px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -380,6 +384,10 @@
 }
 .faq_r_side {
 	flex: 50% 0 0;
+}
+.faq_l_side img {
+	width: calc(var(--size) * 15);
+	max-width: 480px;
 }
 .r_side_items {
 	margin: 15px 0;
