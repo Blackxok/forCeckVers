@@ -27,7 +27,7 @@
 		);
 }
 .mentor_h_l_side {
-	max-width: 1500px;
+	max-width: 1200px;
 	position: absolute;
 	transform: translate(10px);
 }
@@ -44,7 +44,7 @@
 }
 .home_bottom {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	margin: 20px 0;
 	display: flex;
 	align-items: center;
@@ -89,7 +89,7 @@
 	);
 }
 .about .about_container {
-	max-width: 1400px;
+	max-width: 1200px;
 	padding: 80px 0;
 	display: flex;
 	align-items: center;
@@ -198,7 +198,7 @@
 	justify-content: center;
 }
 .mentor_port .mentor_port_container {
-	max-width: 1400px;
+	max-width: 1200px;
 	padding: 70px 30px;
 }
 .mentor_port .mentor_port_container .mentor_port_title h1 {
