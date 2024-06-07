@@ -349,3 +349,117 @@
 	}
 }
 /* o'quvchilarimiz */
+
+/* bizning manzil */
+
+@media (max-width: 768px) {
+	.location {
+		padding: 40px 5%;
+	}
+
+	.location_container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.col_1 img {
+		max-width: 100%;
+	}
+
+	.col_1_title {
+		font-size: 20px;
+	}
+
+	.col_1 p {
+		font-size: 14px;
+	}
+
+	.col_2 iframe {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.location {
+		padding: 20px 5%;
+	}
+
+	.col_1_title {
+		font-size: 18px;
+	}
+
+	.col_1 p {
+		font-size: 12px;
+	}
+}
+
+/* bizning manzil */
+
+/* Footer */
+
+
+@media (max-width: 768px) {
+	.footer_container {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.col_11, .fomr_side {
+		flex: 1 1 100%;
+	}
+	
+	.footer_links .link {
+		width: 100%;
+	}
+	
+	.footer_links .link img {
+		width: 100%;
+		max-width: 50px;
+	}
+	
+	.fomr_side h1 {
+		font-size: 24px;
+	}
+	
+	.fomr_side button {
+		width: 100%;
+		max-width: 100%;
+		padding: 15px;
+		font-size: 16px;
+	}
+	
+	.fomr_side input[type='text'],
+	.fomr_side input[type='tel'] {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer {
+		padding: 20px 5%;
+	}
+
+	.col_11 p {
+		font-size: 13px;
+		line-height: 1.4;
+	}
+
+	.fomr_side h1 {
+		font-size: 20px;
+	}
+
+	.fomr_side button {
+		font-size: 14px;
+		padding: 10px;
+	}
+
+	.fomr_side input[type='text'],
+	.fomr_side input[type='tel'] {
+		font-size: 14px;
+		height: 50px;
+	}
+}
+
+/* Footer */
