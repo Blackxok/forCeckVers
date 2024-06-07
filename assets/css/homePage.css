@@ -11,15 +11,15 @@
 .active {
 	color: var(--color2) !important;
 	background: linear-gradient(
-					0deg,
-					rgba(255, 255, 255, 0.04),
-					rgba(255, 255, 255, 0.04)
-			),
-			linear-gradient(
-					180deg,
-					rgba(255, 255, 255, 0.08) 0%,
-					rgba(255, 255, 255, 0) 31.77%
-			) !important;
+			0deg,
+			rgba(255, 255, 255, 0.04),
+			rgba(255, 255, 255, 0.04)
+		),
+		linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.08) 0%,
+			rgba(255, 255, 255, 0) 31.77%
+		) !important;
 }
 
 *,
@@ -74,7 +74,6 @@ footer:after,
 	display: table;
 	clear: both;
 }
-
 
 .header {
 	display: flex;
@@ -159,11 +158,9 @@ footer:after,
 
 .number:hover {
 	background: linear-gradient(0deg, #f3f2ff, #f3f2ff),
-			linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+		linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
 	color: var(--color1);
 }
-
-
 
 /* Home -------------------------------------------------------------- */
 /* Home -------------------------------------------------------------- */
@@ -219,7 +216,6 @@ footer:after,
 	height: auto;
 }
 
-
 .va {
 	font-size: 70px;
 	color: var(--color2);
@@ -228,7 +224,6 @@ footer:after,
 	font-weight: bolder;
 	line-height: 20px;
 	transform: rotate(-23.22deg) translate(550px, 70px);
-	-webkit-text-stroke: 6px #1010e7;
 	z-index: -1;
 }
 
@@ -260,10 +255,10 @@ footer:after,
 
 .jurak {
 	background: linear-gradient(
-			90deg,
-			rgba(10, 116, 10, 1) 0%,
-			rgba(32, 223, 112, 1) 50%,
-			rgba(0, 255, 85, 1) 100%
+		90deg,
+		rgba(10, 116, 10, 1) 0%,
+		rgba(32, 223, 112, 1) 50%,
+		rgba(0, 255, 85, 1) 100%
 	);
 	width: 20px;
 	height: 20px;
@@ -515,11 +510,10 @@ footer:after,
 	border: 1px solid;
 }
 
-.kurses_box_r_side img{
+.kurses_box_r_side img {
 	width: 100%;
 	/* max-width: 300px; */
 	height: auto;
-
 }
 
 /* Media Queries for Responsiveness */
@@ -539,11 +533,10 @@ footer:after,
 		font-size: 40px;
 	}
 
-	.kurses_box_r_side img{
+	.kurses_box_r_side img {
 		width: 100%;
 		max-width: 300px;
 		height: auto;
-	
 	}
 
 	.kurses_box {
@@ -1073,10 +1066,10 @@ footer:after,
 .payment {
 	background: rgb(16, 5, 52);
 	background: linear-gradient(
-			45deg,
-			rgb(11, 3, 36) 0%,
-			rgba(26, 13, 106, 1) 35%,
-			rgb(13, 4, 51) 49%
+		45deg,
+		rgb(11, 3, 36) 0%,
+		rgba(26, 13, 106, 1) 35%,
+		rgb(13, 4, 51) 49%
 	);
 	display: flex;
 	align-items: center;
@@ -1204,168 +1197,168 @@ footer:after,
 /* Grup -------------------------------------------------------------- */
 /* Group Styles */
 .group {
-    background: radial-gradient(
-        circle,
-        rgba(87, 33, 150, 1) 0%,
-        rgb(10, 9, 36) 50%
-    );
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px; /* Responsive padding */
-    box-sizing: border-box;
+	background: radial-gradient(
+		circle,
+		rgba(87, 33, 150, 1) 0%,
+		rgb(10, 9, 36) 50%
+	);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px; /* Responsive padding */
+	box-sizing: border-box;
 }
 .gr_container {
-    width: 100%;
-    max-width: 1500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 20px;
+	width: 100%;
+	max-width: 1500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 20px;
 }
 .gr_title {
-    padding-top: 100px;
-    text-align: center;
+	padding-top: 100px;
+	text-align: center;
 }
 .gr_title h1 {
-    font-family: var(--font1);
-    font-size: 3rem; /* Responsive font-size */
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.3px;
+	font-family: var(--font1);
+	font-size: 3rem; /* Responsive font-size */
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 0.3px;
 }
 .gr_title h3 {
-    font-family: var(--font1);
-    font-size: 1.875rem; /* Responsive font-size */
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.3px;
-    margin-top: 40px;
+	font-family: var(--font1);
+	font-size: 1.875rem; /* Responsive font-size */
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.3px;
+	margin-top: 40px;
 }
 .gr_boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* Add space between items */
-    padding: 50px 0;
-    transform: translateY(-100px);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px; /* Add space between items */
+	padding: 50px 0;
+	transform: translateY(-100px);
 }
 .gr_box_item {
-    flex: 1 1 calc(33.333% - 40px);
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 20px;
+	flex: 1 1 calc(33.333% - 40px);
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 20px;
 }
 .gr_item_info {
-    width: 100%;
-		position: relative;
-		bottom: 100px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.11) 0%,
-        rgba(6, 165, 255, 0.11) 100%
-    );
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.3px);
-    border-radius: 28px;
-    border: 0.5px solid rgba(255, 255, 255, 0.274);
-    text-align: center;
-    box-sizing: border-box;
+	width: 100%;
+	position: relative;
+	bottom: 100px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.11) 0%,
+		rgba(6, 165, 255, 0.11) 100%
+	);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.3px);
+	border-radius: 28px;
+	border: 0.5px solid rgba(255, 255, 255, 0.274);
+	text-align: center;
+	box-sizing: border-box;
 }
 .gr_box_item img {
-    width: 100%;
-    max-width: 290px;
-    height: auto;
-    border-radius: 20px;
+	width: 100%;
+	max-width: 290px;
+	height: auto;
+	border-radius: 20px;
 }
 .gr_box_item h1 {
-    font-family: var(--font1);
-    font-size: 1.25rem; /* Responsive font-size */
-    font-weight: 600;
-    line-height: 1.5;
-    text-align: center;
+	font-family: var(--font1);
+	font-size: 1.25rem; /* Responsive font-size */
+	font-weight: 600;
+	line-height: 1.5;
+	text-align: center;
 }
 .gr_box_item p {
-    font-family: var(--font1);
-    font-size: 0.75rem; /* Responsive font-size */
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: center;
+	font-family: var(--font1);
+	font-size: 0.75rem; /* Responsive font-size */
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: center;
 }
 .gr_box_item button {
-    width: 100%;
-    max-width: 120px;
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-    font-family: var(--font1);
-    font-size: 0.875rem; /* Responsive font-size */
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: var(--color2);
-    color: #000000;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+	width: 100%;
+	max-width: 120px;
+	height: 35px;
+	border-radius: 10px;
+	border: none;
+	font-family: var(--font1);
+	font-size: 0.875rem; /* Responsive font-size */
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: var(--color2);
+	color: #000000;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 .gr_box_item button:hover {
-    background-color: darken(var(--color2), 10%);
+	background-color: darken(var(--color2), 10%);
 }
 
 /* Media Queries for Responsive Design */
 @media (max-width: 1200px) {
-    .gr_title h1 {
-        font-size: 2.5rem;
-    }
-    .gr_title h3 {
-        font-size: 1.5rem;
-    }
-    .gr_box_item {
-        flex: 1 1 calc(50% - 40px);
-        max-width: 100%;
-    }
+	.gr_title h1 {
+		font-size: 2.5rem;
+	}
+	.gr_title h3 {
+		font-size: 1.5rem;
+	}
+	.gr_box_item {
+		flex: 1 1 calc(50% - 40px);
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 768px) {
-    .gr_title h1 {
-        font-size: 2rem;
-    }
-    .gr_title h3 {
-        font-size: 1.25rem;
-    }
-    .gr_box_item {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
+	.gr_title h1 {
+		font-size: 2rem;
+	}
+	.gr_title h3 {
+		font-size: 1.25rem;
+	}
+	.gr_box_item {
+		flex: 1 1 100%;
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 480px) {
-    .gr_title h1 {
-        font-size: 1.5rem;
-    }
-    .gr_title h3 {
-        font-size: 1rem;
-    }
-    .gr_box_item h1 {
-        font-size: 1rem;
-    }
-    .gr_box_item p {
-        font-size: 0.75rem;
-    }
-    .gr_box_item button {
-        font-size: 0.75rem;
-        padding: 8px;
-    }
+	.gr_title h1 {
+		font-size: 1.5rem;
+	}
+	.gr_title h3 {
+		font-size: 1rem;
+	}
+	.gr_box_item h1 {
+		font-size: 1rem;
+	}
+	.gr_box_item p {
+		font-size: 0.75rem;
+	}
+	.gr_box_item button {
+		font-size: 0.75rem;
+		padding: 8px;
+	}
 }
 /* Locatio_n -------------------------------------------------------------- */
 /* Locatio_n -------------------------------------------------------------- */
