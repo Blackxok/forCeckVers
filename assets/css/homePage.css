@@ -81,7 +81,7 @@ footer:after,
 	padding: 20px 0;
 }
 .header_wraper {
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -175,7 +175,7 @@ footer:after,
 
 .h_content {
 	display: flex;
-	max-width: 1500px;
+	max-width: 1200px;
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
@@ -301,7 +301,7 @@ footer:after,
 .fishka_wraper {
 	height: auto;
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -375,7 +375,7 @@ footer:after,
 	margin: 30px;
 }
 .kusrses_container {
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	width: 100%;
 	align-items: center;
@@ -602,7 +602,7 @@ footer:after,
 	padding: 20px; /* Added padding to avoid overflow */
 }
 .consult_container {
-	max-width: 1500px;
+	max-width: 1200px;
 	width: 100%;
 	padding: 50px 50px;
 	text-align: center;
@@ -776,7 +776,7 @@ footer:after,
 }
 .fidback_container {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -942,7 +942,7 @@ footer:after,
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	max-width: 1500px;
+	max-width: 1200px;
 	height: 600px;
 	padding: 50px 50px;
 }
@@ -1082,7 +1082,7 @@ footer:after,
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	box-sizing: border-box;
 	padding: 0 20px;
 	justify-content: center;
@@ -1210,7 +1210,7 @@ footer:after,
 }
 .gr_container {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1380,7 +1380,7 @@ footer:after,
 }
 .location_container {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -1439,7 +1439,7 @@ footer:after,
 }
 .footer_container {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
