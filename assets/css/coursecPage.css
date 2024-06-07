@@ -367,7 +367,7 @@
 }
 .faq_container {
 	max-width: 1400px;
-	padding: 50px 0;
+	padding: 50px;
 }
 .faq_title h1 {
 	font-family: var(--font1);
@@ -377,18 +377,22 @@
 	text-align: center;
 }
 .faq_sides {
-	width: 1400px;
+	max-width: 1400px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin: 50px 0;
 }
-.faq_r_side {
-	flex: 50% 0 0;
+.faq_r_side,
+.faq_l_side {
+	flex: 45% 0 0;
+}
+.faq_l_side img {
+	width: calc(var(--size) * 25);
 }
 .r_side_items {
 	margin: 15px 0;
-	padding: 10px 25px;
+	padding: 5px 20px;
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.123);
@@ -401,7 +405,7 @@
 	align-items: center;
 	justify-content: space-between;
 	font-family: var(--font1);
-	font-size: 19px;
+	font-size: calc(var(--size) * 1);
 	font-weight: 600;
 	line-height: 25px;
 	margin: 10px 0;
@@ -421,9 +425,9 @@
 .r_side_items .faq_item_togle {
 	display: none;
 	font-family: var(--font1);
-	font-size: 17px;
+	font-size: calc(var(--size) * 0.9);
 	font-weight: 400;
-	line-height: 24px;
+	line-height: calc(var(--size) * 1);
 	text-align: left;
 	user-select: none;
 	padding-right: 50px;

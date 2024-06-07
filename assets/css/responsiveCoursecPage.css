@@ -90,4 +90,10 @@
 	.checkbox_container {
 		width: calc(var(--size) * 15);
 	}
+	/* ------------ */
+	.faq_title h1 {
+		font-family: var(--font1);
+		font-size: calc(var(--size) * 3);
+		font-weight: 600;
+	}
 }

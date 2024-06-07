@@ -652,7 +652,7 @@ footer:after,
 }
 .consultation_form {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	color: black;
@@ -849,9 +849,9 @@ footer:after,
 	opacity: 1;
 }
 .item img {
- max-width: 100%;
-    height: auto;
-    object-fit: cover;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 .item.active {
 	opacity: 1;
@@ -1099,7 +1099,6 @@ footer:after,
 	}
 }
 
-
 /* paymant -------------------------------------------------------------- */
 /* paymant -------------------------------------------------------------- */
 /* paymant -------------------------------------------------------------- */
@@ -1210,7 +1209,6 @@ footer:after,
 	transition: background 0.3s;
 	margin: 0 auto;
 }
-
 
 .pay__content-btn-group .btn:hover {
 	background: rgba(138, 138, 138, 0.1);
@@ -1325,7 +1323,6 @@ footer:after,
 		max-width: 100%;
 	}
 }
-
 
 /* Grup -------------------------------------------------------------- */
 /* Grup -------------------------------------------------------------- */
@@ -1631,8 +1628,6 @@ footer:after,
 	align-items: flex-start;
 }
 
-
-
 .col_11 img {
 	width: 130px;
 	height: 45px;
@@ -1683,25 +1678,7 @@ footer:after,
 	text-align: left;
 	padding: 10px 0;
 }
-.fomr_side button {
-	width: 494px;
-	height: 57px;
-	padding: 19px 164px;
-	border-radius: 26px;
-	cursor: pointer;
-	color: #fff;
-	font-family: var(--font1);
-	font-size: 22px;
-	font-weight: 500;
-	line-height: 20px;
-	text-align: center;
-	background: linear-gradient(72.71deg, #280199 23.39%, #011aff 91.13%),
-		linear-gradient(
-			180deg,
-			rgba(36, 0, 255, 0.08) 0%,
-			rgba(255, 255, 255, 0) 31.77%
-		);
-}
+
 .fomr_side input[type='text'],
 .fomr_side input[type='tel'] {
 	padding: 0 20px;

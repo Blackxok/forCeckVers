@@ -224,11 +224,6 @@
 		padding: 0 150px 0 0;
 		font-size: 16px;
 	}
-	/* .fomr_side input[type='text'],
-	.fomr_side input[type='text'],
-	.fomr_side button {
-		width: 80%;
-	} */
 }
 
 @media (max-width: 768px) {
@@ -245,11 +240,7 @@
 		padding: 0 50px 0 0;
 		font-size: 14px;
 	}
-	/* .fomr_side input[type='text'],
-	.fomr_side input[type='text'],
-	.fomr_side button {
-		width: 100%;
-	} */
+
 }
 
 @media (max-width: 480px) {
@@ -262,11 +253,7 @@
 		padding: 0;
 		font-size: 12px;
 	}
-	/* .fomr_side input[type='text'],
-	.fomr_side input[type='text'],
-	.fomr_side button {
-		width: 100%;
-	} */
+
 	.checkbox_container {
 		font-size: 12px;
 	}
