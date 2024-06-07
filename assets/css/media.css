@@ -2,131 +2,131 @@
 /* Responsive Styles */
 @media (max-width: 1024px) {
 	.header_container {
-			flex-direction: column;
-			align-items: center;
-			padding: 0 10px;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 10px;
 	}
 
 	.navbar {
-			display: none;
+		display: none;
 	}
 
 	.l_side {
-			flex: none;
-			width: 100%;
-			text-align: center;
+		flex: none;
+		width: 100%;
+		text-align: center;
 	}
 
 	.logo {
-			width: 100px;
-			height: 30px;
+		width: 100px;
+		height: 30px;
 	}
 
 	.r_sidee {
-			flex-direction: column;
-			align-items: center;
-			flex: none;
-			width: 100%;
-			justify-content: space-between;
-			margin-top: 10px;
+		flex-direction: column;
+		align-items: center;
+		flex: none;
+		width: 100%;
+		justify-content: space-between;
+		margin-top: 10px;
 	}
 
 	.courses,
 	.kirish,
 	.number {
-			width: auto;
-			text-align: center;
-			padding: 15px;
-			margin-bottom: 10px;
+		width: auto;
+		text-align: center;
+		padding: 15px;
+		margin-bottom: 10px;
 	}
 }
 
 @media (max-width: 768px) {
 	.header_wraper {
-			flex-direction: column;
-			align-items: center;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.r_sidee {
-			flex-direction: column;
-			align-items: center;
-			flex: 1;
+		flex-direction: column;
+		align-items: center;
+		flex: 1;
 	}
 
 	.logo {
-			width: 80px;
-			height: 30px;
+		width: 80px;
+		height: 30px;
 	}
 
 	.courses,
 	.kirish,
 	.number {
-			font-size: 12px;
-			padding: 10px 15px;
-			margin-bottom: 10px;
+		font-size: 12px;
+		padding: 10px 15px;
+		margin-bottom: 10px;
 	}
 
 	.va {
-			font-size: 50px;
-			transform: rotate(-23.22deg) translate(150px, 20px);
+		font-size: 50px;
+		transform: rotate(-23.22deg) translate(150px, 20px);
 	}
 }
 
 @media (max-width: 480px) {
 	.header_wraper {
-			flex-direction: column;
-			align-items: center;
-			padding: 10px;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
 	}
 
 	.header_container {
-			flex-direction: column;
+		flex-direction: column;
 	}
 
 	.l_side {
-			text-align: center;
+		text-align: center;
 	}
 
 	.logo {
-			width: 60px;
-			height: 20px;
+		width: 60px;
+		height: 20px;
 	}
 
 	.r_sidee {
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
 	}
 
 	.courses,
 	.kirish,
 	.number {
 		display: flex;
-			font-size: 10px;
-			padding: 8px 10px;
-			margin-bottom: 5px;
+		font-size: 10px;
+		padding: 8px 10px;
+		margin-bottom: 5px;
 	}
 
 	.va {
-			font-size: 40px;
-			transform: rotate(-23.22deg) translate(100px, 10px);
+		font-size: 40px;
+		transform: rotate(-23.22deg) translate(100px, 10px);
 	}
 
 	.green_light {
-			flex-direction: column;
-			align-items: flex-start;
-			padding: 5px;
-			border-radius: 20px;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 5px;
+		border-radius: 20px;
 	}
 
 	.gl_p {
-			font-size: 10px;
-			margin: 2px 0;
+		font-size: 10px;
+		margin: 2px 0;
 	}
 
 	.jurak {
-			width: 8px;
-			height: 8px;
+		width: 8px;
+		height: 8px;
 	}
 }
 
@@ -135,85 +135,83 @@
 
 /* Header Home */
 
-
 @media (max-width: 1024px) {
 	.h_content {
-			flex-direction: column;
-			padding: 20px;
+		flex-direction: column;
+		padding: 20px;
 	}
 
 	.home_r_side img {
-			max-width: 100%;
-			height: auto;
+		max-width: 100%;
+		height: auto;
 	}
 }
 
 @media (max-width: 768px) {
 	.home_l_side h1 {
-			font-size: 80px;
+		font-size: 80px;
 	}
 
 	.home_l_side p {
-			font-size: 35px;
+		font-size: 35px;
 	}
 
 	.home_r_side img {
-			max-width: 80%;
-			height: auto;
+		max-width: 80%;
+		height: auto;
 	}
 
 	.va {
-			transform: rotate(-23.22deg) translate(300px, 30px);
+		transform: rotate(-23.22deg) translate(300px, 30px);
 	}
 
 	.green_light {
-			/* flex-direction: column; */
-			/* align-items: flex-start; */
-			/* text-align: left; */
-			/* padding: 15px; */
-			margin-top: 50px;
+		/* flex-direction: column; */
+		/* align-items: flex-start; */
+		/* text-align: left; */
+		/* padding: 15px; */
+		margin-top: 50px;
 	}
 
 	.gl_p {
-			margin: 5px 0;
+		margin: 5px 0;
 	}
 }
 
 @media (max-width: 480px) {
 	.home_l_side h1 {
-			font-size: 60px;
+		font-size: 60px;
 	}
 
 	.home_l_side p {
-			font-size: 25px;
+		font-size: 25px;
 	}
 
 	.home_r_side img {
-			max-width: 100%;
-			height: auto;
+		max-width: 100%;
+		height: auto;
 	}
 
 	.va {
-			transform: rotate(-23.22deg) translate(150px, 20px);
-			font-size: 50px;
+		transform: rotate(-23.22deg) translate(150px, 20px);
+		font-size: 50px;
 	}
 
 	.green_light {
-			padding: 10px;
-			border-radius: 30px;
+		padding: 10px;
+		border-radius: 30px;
 	}
 
 	.gl_p {
-			font-size: 14px;
-			margin: 5px 0;
+		font-size: 14px;
+		margin: 5px 0;
 	}
 
 	.jurak {
-			width: 15px;
-			height: 15px;
+		width: 15px;
+		height: 15px;
 	}
 }
-
 
 /* kurslar */
 @media (max-width: 1200px) {
@@ -226,11 +224,11 @@
 		padding: 0 150px 0 0;
 		font-size: 16px;
 	}
+	/* .fomr_side input[type='text'],
 	.fomr_side input[type='text'],
-	.fomr_side input[type='tel'],
 	.fomr_side button {
 		width: 80%;
-	}
+	} */
 }
 
 @media (max-width: 768px) {
@@ -247,11 +245,11 @@
 		padding: 0 50px 0 0;
 		font-size: 14px;
 	}
+	/* .fomr_side input[type='text'],
 	.fomr_side input[type='text'],
-	.fomr_side input[type='tel'],
 	.fomr_side button {
 		width: 100%;
-	}
+	} */
 }
 
 @media (max-width: 480px) {
@@ -264,12 +262,12 @@
 		padding: 0;
 		font-size: 12px;
 	}
+	/* .fomr_side input[type='text'],
 	.fomr_side input[type='text'],
-	.fomr_side input[type='tel'],
 	.fomr_side button {
 		width: 100%;
-	}
-	.checkbox-container {
+	} */
+	.checkbox_container {
 		font-size: 12px;
 	}
 }
