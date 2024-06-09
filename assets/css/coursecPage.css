@@ -138,7 +138,7 @@
 }
 .LessonDetail .l_detail_container {
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1200px;
 	padding: 50px 50px;
 }
 .LessonDetail .l_detail_container .lesson_box_title {
@@ -366,7 +366,7 @@
 	);
 }
 .faq_container {
-	max-width: 1400px;
+	max-width: 1200px;
 	padding: 50px;
 }
 .faq_title h1 {
@@ -377,7 +377,7 @@
 	text-align: center;
 }
 .faq_sides {
-	max-width: 1400px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
