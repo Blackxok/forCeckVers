@@ -38,3 +38,15 @@ const gotoNum = number => {
 	slides[prev].classList.add('prev')
 	slides[next].classList.add('next')
 }
+// ---------------------------------------------------------------------------
+// ---------------------------for teacher boxes------------------------------------------------
+// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+var swiper = new Swiper('.mySwiper', {
+	slidesPerView: 3,
+	spaceBetween: 30,
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+})

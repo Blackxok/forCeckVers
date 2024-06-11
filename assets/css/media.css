@@ -240,7 +240,6 @@
 		padding: 0 50px 0 0;
 		font-size: 14px;
 	}
-
 }
 
 @media (max-width: 480px) {
@@ -264,10 +263,6 @@
 
 @media (max-width: 1200px) {
 	.fidback_title h1 {
-		font-size: 50px;
-	}
-
-	.fidback_comment_title h1 {
 		font-size: 50px;
 	}
 
@@ -335,7 +330,6 @@
 }
 /* o'quvchilarimiz */
 
-
 /* bizning manzil */
 
 @media (max-width: 768px) {
@@ -384,37 +378,37 @@
 
 /* Footer */
 
-
 @media (max-width: 768px) {
 	.footer_container {
 		flex-direction: column;
 		align-items: center;
 	}
-	
-	.col_11, .fomr_side {
+
+	.col_11,
+	.fomr_side {
 		flex: 1 1 100%;
 	}
-	
+
 	.footer_links .link {
 		width: 100%;
 	}
-	
+
 	.footer_links .link img {
 		width: 100%;
 		max-width: 50px;
 	}
-	
+
 	.fomr_side h1 {
 		font-size: 24px;
 	}
-	
+
 	.fomr_side button {
 		width: 100%;
 		max-width: 100%;
 		padding: 15px;
 		font-size: 16px;
 	}
-	
+
 	.fomr_side input[type='text'],
 	.fomr_side input[type='tel'] {
 		width: 100%;
