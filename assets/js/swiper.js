@@ -42,11 +42,24 @@ const gotoNum = number => {
 // ---------------------------for teacher boxes------------------------------------------------
 // ---------------------------------------------------------------------------
 // ---------------------------------------------------------------------------
-var swiper = new Swiper('.mySwiper', {
-	slidesPerView: 3,
-	spaceBetween: 30,
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
-})
+if (window.screen.availWidth < 768) {
+	var swiper = new Swiper('.mySwiper', {
+		slidesPerView: 1,
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	})
+	console.log('if')
+} else {
+	var swiper = new Swiper('.mySwiper', {
+		slidesPerView: 3,
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	})
+	console.log('else')
+}
