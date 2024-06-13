@@ -11,15 +11,13 @@
 		font-size: 90px;
 	}
 	.form_l_side h1 {
-		text-align: center;
-		font-size: 60px;
-		line-height: 50px;
+		font-size: 55px;
 	}
 
 	.form_l_side p {
 		text-align: center;
-		padding: 0 50px 0 0;
 		font-size: 16px;
+		padding: 0;
 	}
 
 	.fbc_com_boxes {
@@ -62,8 +60,7 @@
 		border: 1px solid #ccc;
 		border-radius: 26px;
 		font-size: 13px;
-		width: 300px;
-		height: 40px;
+		height: 47px;
 		font-family: var(--font1);
 		font-size: 18px;
 		font-weight: 500;
@@ -73,7 +70,6 @@
 	.fidback_title h1 {
 		font-size: 40px;
 		font-weight: 700;
-		line-height: 16.9px;
 		letter-spacing: 0.3px;
 		text-align: center;
 	}
@@ -92,12 +88,11 @@
 	.gl_p {
 		font-size: 10px !important;
 	}
-	.consultation_form {
-		flex-direction: column;
-	}
+	.form_l_side,
 	.fomr_side {
-		margin-top: 50px;
+		flex: 40% 0 0;
 	}
+
 	.fomr_side button {
 		height: 35px;
 		padding: 0 15px;
@@ -112,6 +107,9 @@
 	}
 	.gr_boxes {
 		grid-template-columns: repeat(2, minmax(260px, 1fr));
+	}
+	.col_1 {
+		width: 350px;
 	}
 }
 @media (max-width: 888px) {
@@ -163,7 +161,7 @@
 	}
 
 	.form_l_side h1 {
-		font-size: 50px;
+		font-size: 45px;
 		line-height: 45px;
 	}
 
@@ -200,7 +198,6 @@
 	}
 
 	.form_l_side p {
-		padding: 0;
 		font-size: 12px;
 	}
 
