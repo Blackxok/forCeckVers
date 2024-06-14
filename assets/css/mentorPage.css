@@ -1,13 +1,11 @@
 /* mento_r Home --------------------------------------------------- */
-/* mento_r Home --------------------------------------------------- */
-/* mento_r Home --------------------------------------------------- */
 :root {
 	--size: calc(1vw + 1vh);
-	/* width: calc(var(--size) * 10); use */
 	--color1: rgba(11, 4, 20, 1);
 	--color2: rgba(230, 230, 240, 1);
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
+
 .mentor_h_container {
 	display: flex;
 	align-items: center;
@@ -15,22 +13,26 @@
 	flex-wrap: wrap;
 	padding: 0;
 }
+
 .mentor_gl_p {
 	font-size: 150px;
 }
+
 .h_mentor {
-	background: linear-gradient(90deg, #830bfa 0%, #072e94 100%),
-		linear-gradient(
-			180deg,
-			rgba(255, 255, 255, 0.08) 0%,
-			rgba(255, 255, 255, 0) 31.77%
-		);
+	background: linear-gradient(90deg, #830bfa 0%, #072e94 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 31.77%);
 }
+
+.h_home{
+	padding: 80px
+}
+
 .mentor_h_l_side {
 	max-width: 1200px;
 	position: absolute;
 	transform: translate(10px);
 }
+
+
 .mentor_h_l_side h1 {
 	font-size: 150px !important;
 }
@@ -38,10 +40,12 @@
 .mentor_h_r_side {
 	transform: translateX(500px);
 }
+
 .mentor_h_r_side img {
 	width: 750px;
 	height: 750px;
 }
+
 .home_bottom {
 	width: 100%;
 	max-width: 1200px;
@@ -49,7 +53,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
 }
+
 .home_b_bos {
 	width: 260px;
 	height: 130px;
@@ -60,34 +67,24 @@
 	justify-content: space-between;
 	flex-direction: column;
 	border: 1px solid rgba(255, 255, 255, 0.5607843137);
-	background: linear-gradient(
-		45deg,
-		rgba(20, 11, 42, 0.86) 0%,
-		rgb(46, 35, 71) 47%,
-		rgb(19, 7, 35) 100%
-	);
+	background: linear-gradient(45deg, rgba(20, 11, 42, 0.86) 0%, rgb(46, 35, 71) 47%, rgb(19, 7, 35) 100%);
 }
+
 .home_b_bos img {
 	width: 50px;
 	height: 50px;
 }
-/* mento_r Aboout --------------------------------------------------- */
-/* mento_r Aboout --------------------------------------------------- */
-/* mento_r Aboout --------------------------------------------------- */
+
+/* mento_r About --------------------------------------------------- */
 .about {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 0 100px;
 	background: rgb(18, 20, 32);
-	background: linear-gradient(
-		238deg,
-		rgb(18, 20, 32) 29%,
-		rgb(120, 87, 211) 50%,
-		rgb(117, 67, 144) 83%,
-		rgb(26, 25, 26) 100%
-	);
+	background: linear-gradient(238deg, rgb(18, 20, 32) 29%, rgb(120, 87, 211) 50%, rgb(117, 67, 144) 83%, rgb(26, 25, 26) 100%);
 }
+
 .about .about_container {
 	max-width: 1200px;
 	padding: 80px 0;
@@ -95,18 +92,21 @@
 	align-items: center;
 	justify-content: space-between;
 }
+
 .about .about_container .about_r_side {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 	margin: 0 0 0 70px;
 }
+
 .about .about_container .about_r_side .about_r_top {
 	padding: 18px 30px 30px 30px;
 	border: 1px solid rgb(54, 54, 54);
 	border-bottom: none;
 	border-radius: 20px 20px 0 0;
 }
+
 .about .about_container .about_r_side .about_r_top .about_r_top_title {
 	font-family: var(--font1) !important;
 	font-size: 24px;
@@ -115,6 +115,7 @@
 	text-align: left;
 	margin: 23px 0;
 }
+
 .about .about_container .about_r_side .about_r_top .about_r_top_p,
 .about .about_container .about_r_side .about_r_top .about_r_top_p2 {
 	font-family: var(--font1) !important;
@@ -124,15 +125,18 @@
 	text-align: left;
 	letter-spacing: 2px;
 }
+
 .about .about_container .about_r_side .about_r_top .about_r_top_p {
 	font-weight: 600 !important;
 	margin: 23px 0;
 }
+
 .about .about_container .about_r_side .about_r_bottom {
 	border: 1px solid rgb(54, 54, 54);
 	border-radius: 0 0 20px 20px;
 	padding: 18px 30px 30px 30px;
 }
+
 .about .about_container .about_r_side .about_r_bottom .about_r_bottom_title {
 	font-family: var(--font1) !important;
 	font-size: 24px;
@@ -141,12 +145,14 @@
 	text-align: left;
 	margin: 23px 0;
 }
+
 .about .about_container .about_r_side .about_r_bottom .about_r_bottom_items {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
 .about .about_container .about_r_side .about_r_bottom .about_r_bottom_items p {
 	font-family: var(--font1);
 	font-size: 16px;
@@ -162,6 +168,7 @@
 	align-items: center;
 	justify-content: space-between;
 }
+
 .about_r_bottom_icons .about_r_bottom_icons_box {
 	flex: 25% 0 0;
 	background: black;
@@ -171,6 +178,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .about_r_bottom_icons button {
 	flex: 20% 0 0;
 	margin: 0 10px;
@@ -178,10 +186,10 @@
 	border-radius: 10px;
 	font-family: var(--font1);
 	transform: translateX(-10px);
-	border: 1px solid
-		linear-gradient(135.66deg, #ffffff 28.87%, rgba(0, 0, 255, 0) 76.42%) !important;
+	border: 1px solid linear-gradient(135.66deg, #ffffff 28.87%, rgba(0, 0, 255, 0) 76.42%) !important;
 	background: rgb(29, 29, 29);
 }
+
 .about_r_bottom_icons button a {
 	color: rgb(230, 230, 240) !important;
 }
@@ -189,18 +197,19 @@
 .about_r_bottom_icons button:nth-child(2) {
 	transform: translateX(45px);
 }
-/* mentor Portfoli_o --------------------------------------------------- */
-/* mentor Portfoli_o --------------------------------------------------- */
-/* mentor Portfoli_o --------------------------------------------------- */
+
+/* mentor Portfolio --------------------------------------------------- */
 .mentor_port {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
 .mentor_port .mentor_port_container {
 	max-width: 1200px;
 	padding: 70px 30px;
 }
+
 .mentor_port .mentor_port_container .mentor_port_title h1 {
 	font-family: var(--font1);
 	font-size: 60px;
@@ -208,6 +217,7 @@
 	line-height: 57px;
 	text-align: center;
 }
+
 .mentor_port .mentor_port_container .mentor_port_boxes {
 	margin: 50px 0 70px 0;
 	display: flex;
@@ -220,11 +230,13 @@
 	position: relative;
 	margin: 0 10px;
 }
+
 .mentor_port_box img {
 	transform: translate(-15px, 50px);
 	z-index: 11;
 	position: relative;
 }
+
 .mentor_port_box a {
 	position: relative;
 	font-size: 23px;
@@ -233,7 +245,14 @@
 	margin: 0 10px;
 	z-index: 22;
 }
+
 .mentor_port_box a:nth-child(3) {
 	font-size: 16px;
 	font-weight: 200;
 }
+
+.home_r_side {
+	position: absolute;
+	left: 800px;
+}
+
