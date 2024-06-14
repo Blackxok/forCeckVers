@@ -3,10 +3,6 @@
 		font-size: 10px;
 	}
 
-	.home_r_side img {
-		width: 300px;
-	}
-
 	.home_l_side h1 {
 		font-size: 90px;
 	}
@@ -15,7 +11,6 @@
 	}
 
 	.form_l_side p {
-		text-align: center;
 		font-size: 16px;
 		padding: 0;
 	}
@@ -28,6 +23,15 @@
 	}
 	.pay_title h1 {
 		font-size: 45px;
+	}
+	.lesson_box_title {
+		font-size: 50px !important;
+	}
+	.wp_title h1 {
+		font-size: 48px;
+	}
+	.l_side_li li {
+		font-size: 25px;
 	}
 }
 
@@ -76,6 +80,25 @@
 	.fbc_com_boxes {
 		padding: 15px;
 	}
+	.home_t_bos h1 {
+		font-size: 50px;
+	}
+	.home_b_bos h2 {
+		font-size: 17px;
+	}
+	.trailer_button button {
+		height: 40px;
+	}
+	.lesson_box_title {
+		font-size: 45px !important;
+	}
+	.lesson_b_r_side img {
+		width: 400px;
+		height: 400px;
+	}
+	.l_detail {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 900px) {
@@ -111,12 +134,51 @@
 	.col_1 {
 		width: 350px;
 	}
+	.crs_home_img img {
+		width: 390px !important;
+	}
+	.home_t_bos h1 {
+		font-size: 45px;
+	}
+	.home_b_bos h2 {
+		font-size: 15px;
+	}
+	.home_bottom {
+		padding: 40px 50px 20px 50px;
+	}
+	.home_time {
+		padding: 20px 60px;
+	}
+	.trailer_button button {
+		font-size: 18px;
+		height: 38px;
+	}
+	.lesson_box_title {
+		font-size: 35px !important;
+	}
+	.detail_title {
+		font-size: 25px;
+	}
+	.l_detail {
+		font-size: 18px;
+	}
+	.lesson_b_r_side img {
+		width: 350px;
+		height: 400px;
+	}
+	.wp_title h1 {
+		font-size: 42px;
+	}
+	.l_side_li li {
+		font-size: 20px;
+	}
 }
 @media (max-width: 888px) {
 	.fbc_com_boxes {
 		padding: 15px;
 	}
 }
+
 @media (max-width: 843px) {
 	.home_r_side img {
 		width: 200px;
@@ -149,10 +211,37 @@
 	.fbc_com_boxes p {
 		font-size: 12px;
 	}
+	.home_bottom {
+		grid-template-columns: repeat(2, minmax(150px, 1fr));
+	}
+	.lesson_b_r_side img {
+		width: 300px;
+		height: 400px;
+	}
+	.detail_title {
+		font-size: 22px;
+	}
+	.l_detail {
+		font-size: 15px;
+	}
+	.checkbox_container {
+		margin: 15px 0 7px 0;
+	}
 }
 @media (max-width: 788px) {
 	.fbc_com_boxes {
 		padding: 15px;
+	}
+	.trailer_button button {
+		font-size: 15px;
+		height: 40px;
+	}
+	.trailer_container img {
+		width: calc(var(--size) * 20);
+	}
+	.trailer_button h1 {
+		width: max-content;
+		font-size: calc(var(--size) * 2);
 	}
 }
 @media (max-width: 768px) {
@@ -188,6 +277,10 @@
 	}
 	.teacher h2 {
 		font-size: 13px;
+	}
+	.lesson_b_r_side img {
+		width: 250px;
+		height: 400px;
 	}
 }
 

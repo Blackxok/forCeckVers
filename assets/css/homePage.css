@@ -165,16 +165,14 @@ footer:after,
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 20px 50px;
 }
 
 .h_content {
-	width: 100%;
 	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 50px;
+	padding: 50px;
 }
 
 .home_l_side {
