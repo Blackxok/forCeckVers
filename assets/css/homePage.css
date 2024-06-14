@@ -1170,14 +1170,6 @@ footer:after,
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(
-		63deg,
-		rgba(80, 45, 18, 0.8939950980392157) 0%,
-		rgba(191, 94, 34, 1) 16%,
-		rgba(76, 16, 116, 1) 43%,
-		rgba(16, 69, 124, 1) 75%,
-		rgba(26, 107, 255, 1) 87%
-	);
 }
 
 .footer_container {
