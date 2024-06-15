@@ -22,9 +22,6 @@
 	background: linear-gradient(90deg, #830bfa 0%, #072e94 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 31.77%);
 }
 
-.h_home{
-	padding: 80px
-}
 
 .mentor_h_l_side {
 	max-width: 1200px;
@@ -208,7 +205,7 @@
 }
 
 .mentor_port .mentor_port_container {
-	max-width: 1200px;
+	max-width: 1500px;
 	padding: 70px 30px;
 }
 
@@ -258,3 +255,19 @@
 	right: 350px;
 }
 
+
+.mentor_btn{
+	max-width: max-content;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: linear-gradient(
+		90deg,
+		rgb(131, 22, 158) 0%,
+		rgba(76, 25, 194, 0.795) 45%,
+		rgba(40, 9, 180, 0.705) 100%
+	);
+	border: 1px solid #57855a65;
+	border-radius: 50px;
+	padding: 10px;
+}

@@ -383,6 +383,16 @@
 	}
 }
 
+@media (max-width: 670px){
+	.about_l_side img {
+		max-width: 100%; /* Ensure the image doesn't exceed its container */
+		height: auto; /* Maintain aspect ratio */
+		display: block; /* Remove default inline spacing */
+		margin: 0 auto; /* Center the image within its container */
+	}
+	
+}
+
 @media (max-width: 576px) {
 	.mentor_h_l_side h1,
 	.mentor_gl_p {
