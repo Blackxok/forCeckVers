@@ -8,11 +8,16 @@
 	--color2: rgba(230, 230, 240, 1);
 	--font1: 'TT Firs Neue Trl', sans-serif;
 }
-.crs_home_img img {
-	width: 800px !important;
+
+.home_container {
+	max-width: 1200px;
 }
+
+.crs_home_img img {
+	width: 500px !important;
+}
+
 .home_b_bos {
-	width: 260px;
 	height: 130px;
 	border-radius: 20px;
 	padding: 20px 0;
@@ -28,25 +33,24 @@
 		rgb(19, 7, 35) 100%
 	);
 }
+.home_b_bos h2 {
+	font-family: var(--font1);
+}
 .home_b_bos img {
 	width: 50px;
 	height: 50px;
 }
 .home_bottom {
-	width: 100%;
-	max-width: 1200px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 17px;
+	padding: 50px;
 }
 .home_time {
-	width: 100%;
-	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	flex-direction: row;
-	padding: 100px 100px;
+	padding: 70px 50px;
 }
 .home_time h1 {
 	font-family: var(--font1);
@@ -111,13 +115,12 @@
 	text-align: right;
 }
 .trailer_button button {
-	/* width: 275px; */
-	height: 60px;
+	height: 55px;
 	border-radius: 20px;
 	border: none;
 	padding: 0 20px;
-	font-family: TT Firs Neue;
-	font-size: 23px;
+	font-family: var(--font1);
+	font-size: 20px;
 	font-weight: 500;
 	line-height: 20px;
 	text-align: center;
@@ -141,7 +144,7 @@
 	max-width: 1200px;
 	padding: 50px 50px;
 }
-.LessonDetail .l_detail_container .lesson_box_title {
+.lesson_box_title {
 	font-family: var(--font1);
 	font-size: 60px;
 	font-weight: 600;
@@ -161,11 +164,10 @@
 	flex-direction: column;
 }
 .detail_title {
-	padding: 20px;
+	padding: 20px 0;
 	font-family: var(--font1);
 	font-size: 31px;
 	font-weight: 700;
-	line-height: 24px;
 	text-align: left;
 }
 .lesson_detail {
@@ -175,9 +177,10 @@
 }
 ._for2 {
 	transform: translateX(23px) !important;
+	padding: 0 40px 0 20px !important;
 }
 .reverse_strelka {
-	transform: rotate(180deg) translateX(18px);
+	transform: rotate(180deg) translateX(18px) !important;
 }
 .lesson_detail img {
 	width: 45px;
@@ -187,16 +190,14 @@
 }
 
 .l_d_num {
-	width: 46px;
-	height: 46px;
+	width: 45px;
+	height: 45px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: var(--font1);
 	font-size: 25px;
 	font-weight: 700;
-	line-height: 18.5px;
-	text-align: center;
 	border: 2px solid rgba(143, 143, 143, 0.508);
 	border-radius: 50px;
 	background: linear-gradient(
@@ -208,13 +209,8 @@
 	-webkit-backdrop-filter: blur(6px);
 	z-index: 33;
 }
-.LessonDetail
-	.l_detail_container
-	.lesson_box
-	.lesson_b_l_side
-	.lesson_detail
-	.l_detail {
-	width: 100%;
+
+.l_detail {
 	font-family: var(--font1);
 	font-size: 25px;
 	font-weight: 400;
@@ -230,12 +226,12 @@
 		rgba(255, 255, 255, 0.035) 77.11%
 	);
 }
-.LessonDetail .l_detail_container .lesson_box .lesson_b_r_side {
+.lesson_b_r_side {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.LessonDetail .l_detail_container .lesson_box .lesson_b_r_side img {
+.lesson_b_r_side img {
 	width: 470px;
 	height: 400px;
 	top: 247px;
@@ -267,24 +263,19 @@
 	align-items: center;
 	justify-content: center;
 	background: #fff;
-	padding: 50px;
 }
 .wp_container {
 	color: rgb(51, 51, 51);
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: column;
+	max-width: 1200px;
+	padding: 50px;
 }
 .wp_title {
 	margin: auto;
 }
 .wp_title h1 {
 	font-family: var(--font1);
-	font-size: 59px;
+	font-size: 54px;
 	font-weight: 600;
-	line-height: 57px;
 	text-align: center;
 }
 .wp_item {
@@ -308,7 +299,7 @@
 	list-style: disc;
 }
 .wp_r_side img {
-	width: calc(var(--size) * 24);
+	width: calc(var(--size) * 16);
 }
 /* portfolir stusents ----------------------------------------------- */
 /* portfolir stusents ----------------------------------------------- */
@@ -326,13 +317,12 @@
 	);
 }
 .portfolio .port_container {
-	width: 1450px;
 	max-width: 1200px;
 	padding: 50px 0;
 }
 .port_title h1 {
 	font-family: var(--font1);
-	font-size: 60px;
+	font-size: 57px;
 	font-weight: 600;
 	line-height: 57px;
 	text-align: center;
@@ -345,7 +335,7 @@
 	padding: 30px 0;
 }
 .port_imgs img {
-	margin: 20px;
+	margin: 200px;
 }
 /* faq frecuently asq----------------------------------------------- */
 /* faq frecuently asq----------------------------------------------- */
@@ -422,16 +412,6 @@
 	align-items: center;
 	justify-content: center;
 }
-.r_side_items .faq_item_togle {
-	display: none;
-	font-family: var(--font1);
-	font-size: calc(var(--size) * 0.9);
-	font-weight: 400;
-	line-height: calc(var(--size) * 1);
-	text-align: left;
-	user-select: none;
-	padding-right: 50px;
-}
 .r_side_item_title.active::after {
 	content: '-';
 	width: 50px;
@@ -442,4 +422,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.r_side_items .faq_item_togle {
+	display: none;
+	font-family: var(--font1);
+	font-size: calc(var(--size) * 0.9);
+	font-weight: 400;
+	line-height: calc(var(--size) * 1);
+	text-align: left;
+	user-select: none;
+	padding-right: 50px;
 }

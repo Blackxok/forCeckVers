@@ -33,15 +33,21 @@ document.addEventListener('DOMContentLoaded', function () {
 	document.querySelector('.va').style.textShadow = str
 })
 //////////////////////////////////// outside effect
-const h3 = document.querySelectorAll('.r_side_item_title')
-h3.forEach(h3_item => {
-	h3_item.addEventListener('click', () => {
-		const p = h3_item.nextElementSibling
-		p.style.display = p.style.display
-		if (p.style.display === 'none') {
-			p.style.display = 'block'
-		} else {
-			p.style.display = 'none'
-		}
+function acardion() {
+	const h3 = document.querySelectorAll('.r_side_item_title')
+	h3.forEach(h3_item => {
+		let visible = false
+		h3_item.addEventListener('click', () => {
+			const p = h3_item.nextElementSibling
+			visible = !visible
+			p.style.display = visible ? 'block' : 'none'
+			if (p.style.display == 'block') {
+				h3_item.classList.add('active')
+			} else {
+				h3_item.classList.remove('active')
+			}
+		})
 	})
-})
+}
+
+acardion()

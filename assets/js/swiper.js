@@ -51,6 +51,15 @@ if (window.screen.availWidth < 768) {
 			clickable: true,
 		},
 	})
+} else if (window.screen.availWidth < 1000) {
+	var swiper = new Swiper('.mySwiper', {
+		slidesPerView: 2,
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	})
 } else {
 	var swiper = new Swiper('.mySwiper', {
 		slidesPerView: 3,
