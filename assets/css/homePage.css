@@ -118,14 +118,12 @@ footer:after,
 .courses a {
 	color: var(--color2);
 	font-family: var(--font1);
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 }
-
 .courses:hover {
 	border-color: var(--color2);
 }
-
 .kirish {
 	color: var(--color2);
 	border: 1px solid transparent;
@@ -133,24 +131,21 @@ footer:after,
 	outline: none !important;
 	padding: 10px 20px;
 	background: transparent;
+	font-size: 16px;
 }
-
 .kirish:hover {
 	border-color: var(--color2);
 }
-
 .number {
-	border: 1px solid transparent;
 	font-family: var(--font1);
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 600;
-	line-height: 20px;
 	border-radius: 26px;
 	padding: 10px 20px;
 	color: var(--color2);
+	border: 1px solid transparent;
 	background: transparent;
 }
-
 .number:hover {
 	background: linear-gradient(0deg, #f3f2ff, #f3f2ff),
 		linear-gradient(180deg, #ffffff 0%, #ffffff 100%);

@@ -99,6 +99,15 @@
 	.l_detail {
 		font-size: 20px;
 	}
+	.port_title h1 {
+		font-size: 48px;
+	}
+	.port_imgs {
+		gap: 30px 20px;
+	}
+	.r_sidee {
+		flex: 50% 0 0;
+	}
 }
 
 @media (max-width: 900px) {
@@ -172,6 +181,15 @@
 	.l_side_li li {
 		font-size: 20px;
 	}
+	.port_imgs {
+		gap: 20px 15px;
+	}
+	.r_side_items .r_side_item_title {
+		font-size: 15px;
+	}
+	.r_side_items .faq_item_togle {
+		font-size: 13px;
+	}
 }
 @media (max-width: 888px) {
 	.fbc_com_boxes {
@@ -183,18 +201,8 @@
 	.home_r_side img {
 		width: 200px;
 	}
-
 	.home_l_side h1 {
 		font-size: 60px;
-	}
-	.number {
-		font-size: 5px;
-	}
-	.kirish {
-		font-size: 5px;
-	}
-	.courses a {
-		font-size: 5px;
 	}
 	.green_light {
 		padding: 2px;
@@ -226,6 +234,9 @@
 	}
 	.checkbox_container {
 		margin: 15px 0 7px 0;
+	}
+	.r_sidee {
+		flex: 60% 0 0;
 	}
 }
 @media (max-width: 788px) {
@@ -327,7 +338,8 @@
 }
 
 @media (max-width: 992px) {
-	.mentor_h_l_side h1, .mentor_gl_p {
+	.mentor_h_l_side h1,
+	.mentor_gl_p {
 		font-size: 100px !important;
 	}
 	.mentor_h_r_side {
@@ -363,9 +375,9 @@
 	}
 }
 
-
 @media (max-width: 576px) {
-	.mentor_h_l_side h1, .mentor_gl_p {
+	.mentor_h_l_side h1,
+	.mentor_gl_p {
 		font-size: 60px !important;
 	}
 	.mentor_h_r_side {
@@ -404,7 +416,8 @@
 }
 
 @media (max-width: 480px) {
-	.mentor_h_l_side h1, .mentor_gl_p {
+	.mentor_h_l_side h1,
+	.mentor_gl_p {
 		font-size: 50px !important;
 	}
 	.mentor_h_r_side {
@@ -440,4 +453,3 @@
 		left: 150px;
 	}
 }
-
