@@ -54,6 +54,7 @@
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	flex-grow: 1;
 	gap: 20px;
 }
 
@@ -68,6 +69,7 @@
 	flex-direction: column;
 	border: 1px solid rgba(255, 255, 255, 0.5607843137);
 	background: linear-gradient(45deg, rgba(20, 11, 42, 0.86) 0%, rgb(46, 35, 71) 47%, rgb(19, 7, 35) 100%);
+	flex-grow: 1;
 }
 
 .home_b_bos img {
@@ -219,11 +221,11 @@
 }
 
 .mentor_port .mentor_port_container .mentor_port_boxes {
-	margin: 50px 0 70px 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+	 margin: 50px 0 70px 0;
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+ }
 
 .mentor_port_box {
 	width: min-content;
@@ -252,7 +254,7 @@
 }
 
 .home_r_side {
-	position: absolute;
-	left: 800px;
+	position: relative;
+	right: 350px;
 }
 
