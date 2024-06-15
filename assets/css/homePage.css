@@ -667,7 +667,7 @@ footer:after,
 .fidback_carusel {
 	/* overflow: hidden; */
 	width: 100%;
-	height: calc(var(--size) * 20);
+	height: 600px;
 	max-height: 650px;
 	margin: auto;
 }

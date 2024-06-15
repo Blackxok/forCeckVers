@@ -51,7 +51,6 @@ if (window.screen.availWidth < 768) {
 			clickable: true,
 		},
 	})
-	console.log('if')
 } else {
 	var swiper = new Swiper('.mySwiper', {
 		slidesPerView: 3,
@@ -61,5 +60,4 @@ if (window.screen.availWidth < 768) {
 			clickable: true,
 		},
 	})
-	console.log('else')
 }
