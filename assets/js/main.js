@@ -51,3 +51,21 @@ function acardion() {
 }
 
 acardion()
+//  some hover effect
+//  some hover effect
+//  some hover effect
+//  some hover effect
+let l_detail = document.querySelectorAll('.lesson_detail')
+
+// l_detail.addEventListener('mouseover', e => {
+// 	var item1 = document.getElementsByClassName('l_d_num')
+// 	var item2 = document.getElementsByClassName('l_detail')
+// 	item1.setAttribute('style', 'transform:translateX(10px);')
+// 	item2.setAttribute('style', 'background-color:blue;')
+// })
+
+l_detail.forEach(e => {
+	e.addEventListener('click', () => {
+		console.log(e)
+	})
+})

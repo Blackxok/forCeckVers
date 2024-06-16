@@ -33,6 +33,15 @@
 	.l_side_li li {
 		font-size: 25px;
 	}
+	.crs_home_img img {
+		width: 350px !important;
+	}
+	.home_time h1 {
+		font-size: 55px;
+	}
+	.home_time h3 {
+		font-size: 39px;
+	}
 }
 
 @media (max-width: 1040px) {
@@ -114,6 +123,17 @@
 	.button-container {
 		width: 100%;
 	}
+	.pay__content-btn-group p {
+		font-size: 12px;
+		padding: 5px 15px;
+	}
+	.home_b_bos img {
+		width: 40px;
+		height: 40px;
+	}
+	.trailer_button h1 {
+		font-size: calc(var(--size) * 2);
+	}
 }
 
 @media (max-width: 900px) {
@@ -144,13 +164,13 @@
 		width: 85%;
 	}
 	.gr_boxes {
-		grid-template-columns: repeat(2, minmax(260px, 1fr));
+		grid-template-columns: repeat(4, minmax(260px, 1fr));
 	}
 	.col_1 {
 		width: 350px;
 	}
 	.crs_home_img img {
-		width: 390px !important;
+		width: 300px !important;
 	}
 	.home_t_bos h1 {
 		font-size: 45px;
@@ -199,6 +219,12 @@
 	.kurses_box_r_side img {
 		transform: translateY(30px);
 	}
+	.home_time h1 {
+		font-size: 45px;
+	}
+	.home_time h3 {
+		font-size: 29px;
+	}
 }
 @media (max-width: 888px) {
 	.fbc_com_boxes {
@@ -229,7 +255,7 @@
 		font-size: 12px;
 	}
 	.home_bottom {
-		grid-template-columns: repeat(2, minmax(150px, 1fr));
+		grid-template-columns: repeat(4, minmax(150px, 1fr));
 	}
 	.lesson_b_r_side img {
 		width: 300px;
@@ -247,6 +273,12 @@
 	.r_sidee {
 		flex: 60% 0 0;
 	}
+	.home_time h1 {
+		font-size: 30px;
+	}
+	.home_time h3 {
+		font-size: 19px;
+	}
 }
 @media (max-width: 788px) {
 	.fbc_com_boxes {
@@ -257,11 +289,14 @@
 		height: 40px;
 	}
 	.trailer_container img {
-		width: calc(var(--size) * 20);
 	}
 	.trailer_button h1 {
 		width: max-content;
 		font-size: calc(var(--size) * 2);
+	}
+	.pay__content-btn-group p {
+		font-size: 10px;
+		padding: 2px 15px;
 	}
 }
 @media (max-width: 768px) {
