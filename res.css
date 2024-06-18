@@ -379,8 +379,7 @@
 }
 
 @media (max-width: 992px) {
-	.mentor_h_l_side h1,
-	.mentor_gl_p {
+	.mentor_h_l_side h1 {
 		font-size: 100px !important;
 	}
 	.mentor_h_r_side {
@@ -423,8 +422,7 @@
 }
 
 @media (max-width: 576px) {
-	.mentor_h_l_side h1,
-	.mentor_gl_p {
+	.mentor_h_l_side h1 {
 		font-size: 60px !important;
 	}
 	.mentor_h_r_side {
@@ -460,8 +458,7 @@
 }
 
 @media (max-width: 480px) {
-	.mentor_h_l_side h1,
-	.mentor_gl_p {
+	.mentor_h_l_side h1 {
 		font-size: 50px !important;
 	}
 	.mentor_h_r_side {

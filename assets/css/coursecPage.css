@@ -56,6 +56,7 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 50px;
+	user-select: none;
 }
 .home_time h1 {
 	font-family: var(--font1);
@@ -189,7 +190,14 @@
 	transform: translateX(23px) !important;
 	padding: 0 40px 0 20px !important;
 }
+.l_d_for2 {
+	justify-content: flex-end;
+}
+.d_t_for2 {
+	text-align: end;
+}
 .reverse_strelka {
+	position: relative;
 	transform: rotate(180deg) translateX(18px) !important;
 }
 .lesson_detail img {
@@ -349,7 +357,13 @@
 	grid-column: span 2 !important;
 }
 .port_imgs img {
+	border-radius: 20px;
 	width: 100%;
+}
+.port_imgs img:hover {
+	-webkit-box-shadow: 0.5px 0.5px 15px -4px #ffffff;
+	-moz-box-shadow: 0.5px 0.5px 15px -4px #ffffff;
+	box-shadow: 0.5px 0.5px 15px -4px #ffffff;
 }
 /* faq frecuently asq----------------------------------------------- */
 /* faq frecuently asq----------------------------------------------- */
@@ -390,11 +404,16 @@
 .faq_l_side {
 	flex: 45% 0 0;
 }
+.faq_r_side {
+	max-width: 600px;
+	max-height: 400px;
+}
 .faq_l_side img {
 	width: calc(var(--size) * 18);
 	max-width: 480px;
 }
 .r_side_items {
+	max-height: 134px;
 	margin: 15px 0;
 	padding: 5px 20px;
 	background: rgba(255, 255, 255, 0.1);
@@ -404,6 +423,11 @@
 	-webkit-backdrop-filter: blur(3.1px);
 	border: 1px solid rgba(255, 255, 255, 0.15);
 }
+.r_side_items:hover {
+	-webkit-box-shadow: 0.5px 0.5px 10px -4px #ffffff;
+	-moz-box-shadow: 0.5px 0.5px 10px -4px #ffffff;
+	box-shadow: 0.5px 0.5px 10px -4px #ffffff;
+}
 .r_side_items .r_side_item_title {
 	display: flex;
 	align-items: center;
@@ -411,7 +435,6 @@
 	font-family: var(--font1);
 	font-size: 18px;
 	font-weight: 600;
-	margin: 10px 0;
 	user-select: none;
 }
 .r_side_items .r_side_item_title::after {
@@ -425,6 +448,9 @@
 	align-items: center;
 	justify-content: center;
 }
+.r_side_item_title.active {
+	background: transparent !important;
+}
 .r_side_item_title.active::after {
 	content: '-';
 	width: 50px;
@@ -437,10 +463,14 @@
 	justify-content: center;
 }
 .r_side_items .faq_item_togle {
+	max-height: 70px;
 	display: none;
 	font-family: var(--font1);
 	font-size: 16px;
 	font-weight: 400;
 	user-select: none;
-	padding-right: 50px;
+	padding: 0 18px 18px 0;
+	overflow-y: auto;
+	scrollbar-width: none;
 }
+

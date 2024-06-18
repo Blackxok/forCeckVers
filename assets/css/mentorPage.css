@@ -13,22 +13,25 @@
 	flex-wrap: wrap;
 	padding: 0;
 }
-
 .mentor_gl_p {
-	font-size: 150px;
+	width: max-content;
+	border-radius: 26px;
+	padding: 10px 22px;
+	font-size: 19px;
+	border: 1px solid #ffffff56;
+	margin-bottom: 20px;
+	background: linear-gradient(
+		90deg,
+		rgb(131, 22, 158) 0%,
+		rgba(76, 25, 194, 0.795) 45%,
+		rgba(40, 9, 180, 0.705) 100%
+	);
 }
-
-.h_mentor {
-	background: linear-gradient(90deg, #830bfa 0%, #072e94 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 31.77%);
-}
-
-
 .mentor_h_l_side {
 	max-width: 1200px;
 	position: absolute;
 	transform: translate(10px);
 }
-
 
 .mentor_h_l_side h1 {
 	font-size: 150px !important;
@@ -65,7 +68,12 @@
 	justify-content: space-between;
 	flex-direction: column;
 	border: 1px solid rgba(255, 255, 255, 0.5607843137);
-	background: linear-gradient(45deg, rgba(20, 11, 42, 0.86) 0%, rgb(46, 35, 71) 47%, rgb(19, 7, 35) 100%);
+	background: linear-gradient(
+		45deg,
+		rgba(20, 11, 42, 0.86) 0%,
+		rgb(46, 35, 71) 47%,
+		rgb(19, 7, 35) 100%
+	);
 	flex-grow: 1;
 }
 
@@ -81,7 +89,13 @@
 	justify-content: center;
 	padding: 0 100px;
 	background: rgb(18, 20, 32);
-	background: linear-gradient(238deg, rgb(18, 20, 32) 29%, rgb(120, 87, 211) 50%, rgb(117, 67, 144) 83%, rgb(26, 25, 26) 100%);
+	background: linear-gradient(
+		238deg,
+		rgb(18, 20, 32) 29%,
+		rgb(120, 87, 211) 50%,
+		rgb(117, 67, 144) 83%,
+		rgb(26, 25, 26) 100%
+	);
 }
 
 .about .about_container {
@@ -185,7 +199,8 @@
 	border-radius: 10px;
 	font-family: var(--font1);
 	transform: translateX(-10px);
-	border: 1px solid linear-gradient(135.66deg, #ffffff 28.87%, rgba(0, 0, 255, 0) 76.42%) !important;
+	border: 1px solid
+		linear-gradient(135.66deg, #ffffff 28.87%, rgba(0, 0, 255, 0) 76.42%) !important;
 	background: rgb(29, 29, 29);
 }
 
@@ -218,11 +233,11 @@
 }
 
 .mentor_port .mentor_port_container .mentor_port_boxes {
-	 margin: 50px 0 70px 0;
-	 display: flex;
-	 flex-wrap: wrap;
-	 justify-content: center;
- }
+	margin: 50px 0 70px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
 .mentor_port_box {
 	width: min-content;
@@ -255,19 +270,15 @@
 	right: 350px;
 }
 
-
-.mentor_btn{
-	max-width: max-content;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+/* .mentor_btn p {
+	border: 1px solid #57855a65;
+	border-radius: 50px;
+}
+.mentor_btn p:hover {
 	background: linear-gradient(
 		90deg,
 		rgb(131, 22, 158) 0%,
 		rgba(76, 25, 194, 0.795) 45%,
 		rgba(40, 9, 180, 0.705) 100%
 	);
-	border: 1px solid #57855a65;
-	border-radius: 50px;
-	padding: 10px;
-}
+} */
