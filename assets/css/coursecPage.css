@@ -407,6 +407,9 @@
 .faq_r_side {
 	max-width: 600px;
 	max-height: 400px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	padding: 0 10px;
 }
 .faq_l_side img {
 	width: calc(var(--size) * 18);
