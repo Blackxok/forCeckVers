@@ -7,16 +7,15 @@
 	--color1: rgba(11, 4, 20, 1);
 	--color2: rgba(230, 230, 240, 1);
 	--font1: 'TT Firs Neue Trl', sans-serif;
+	--deg: 255deg;
 }
 
 .home_container {
 	max-width: 1200px;
 }
-
 .crs_home_img img {
 	width: 500px !important;
 }
-
 .home_b_bos {
 	height: 130px;
 	border-radius: 20px;
@@ -32,11 +31,55 @@
 		rgb(46, 35, 71) 47%,
 		rgb(19, 7, 35) 100%
 	);
+	position: relative;
 }
-.home_b_bos:hover {
-	-webkit-box-shadow: 0 0 18px -5.5px #dddddd;
-	-moz-box-shadow: 0 0 18px -5.5px #dddddd;
-	box-shadow: 0 0 18px -5.5px #dddddd;
+
+@keyframes sw {
+	0% {
+	}
+	10% {
+	}
+	20% {
+	}
+	30% {
+	}
+	40% {
+	}
+	50% {
+	}
+	60% {
+	}
+	70% {
+	}
+	80% {
+	}
+	90% {
+	}
+	100% {
+	}
+}
+.shadow:hover:before {
+	content: '';
+	position: absolute;
+	inset: 1px;
+	transform: translate3d(0, 0, -1px);
+	background: conic-gradient(
+		from 10deg,
+		#fd0000 0%,
+		rgb(229, 255, 0) 10%,
+		rgb(200, 255, 0) 20%,
+		rgb(115, 255, 0) 30%,
+		rgb(43, 255, 0) 40%,
+		rgb(0, 247, 255) 50%,
+		rgb(0, 68, 255) 60%,
+		rgb(89, 0, 255) 70%,
+		rgb(132, 7, 250) 80%,
+		rgb(195, 0, 255) 90%,
+		#0051ff 100%
+	);
+	filter: blur(10px);
+	animation: sw 3s linear infinite;
+	z-index: -1;
 }
 .home_b_bos h2 {
 	font-family: var(--font1);
@@ -61,7 +104,7 @@
 .home_time h1 {
 	font-family: var(--font1);
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: var(--deg);
 	text-align: center;
 }
 .home_time h3 {
@@ -473,4 +516,3 @@
 	overflow-y: auto;
 	scrollbar-width: none;
 }
-
