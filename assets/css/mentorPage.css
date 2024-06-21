@@ -20,11 +20,20 @@
 	font-size: 19px;
 	border: 1px solid #ffffff56;
 	margin-bottom: 20px;
+	cursor: pointer;
 	background: linear-gradient(
 		90deg,
 		rgb(131, 22, 158) 0%,
 		rgba(76, 25, 194, 0.795) 45%,
 		rgba(40, 9, 180, 0.705) 100%
+	);
+}
+.mentor_gl_p:hover {
+	background: linear-gradient(
+		90deg,
+		rgb(40, 9, 180, 0.705) 0%,
+		rgba(71, 16, 154, 0.795) 45%,
+		rgba(131, 22, 158) 100%
 	);
 }
 .mentor_h_l_side {
@@ -183,25 +192,27 @@
 }
 
 .about_r_bottom_icons .about_r_bottom_icons_box {
-	flex: 25% 0 0;
 	background: black;
 	border-radius: 50px;
-	padding: 10px 0;
+	padding: 6px 10px 0 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .about_r_bottom_icons button {
-	flex: 20% 0 0;
-	margin: 0 10px;
-	padding: 15px 0px;
+	width: 140px !important;
+	padding: 14px 0px;
 	border-radius: 10px;
 	font-family: var(--font1);
 	transform: translateX(-10px);
-	border: 1px solid
-		linear-gradient(135.66deg, #ffffff 28.87%, rgba(0, 0, 255, 0) 76.42%) !important;
-	background: rgb(29, 29, 29);
+	background: #1c1c21;
+	border: 1px solid;
+	border-image-source: linear-gradient(
+		135.66deg,
+		#2f2f37 28.87%,
+		rgba(47, 47, 55, 0) 76.42%
+	);
 }
 
 .about_r_bottom_icons button a {
@@ -209,7 +220,7 @@
 }
 
 .about_r_bottom_icons button:nth-child(2) {
-	transform: translateX(45px);
+	transform: translateX(5px);
 }
 
 /* mentor Portfolio --------------------------------------------------- */
@@ -220,8 +231,9 @@
 }
 
 .mentor_port .mentor_port_container {
-	max-width: 1500px;
-	padding: 70px 30px;
+	width: 100%;
+	max-width: 1200px;
+	padding: 50px;
 }
 
 .mentor_port .mentor_port_container .mentor_port_title h1 {
@@ -232,17 +244,19 @@
 	text-align: center;
 }
 
-.mentor_port .mentor_port_container .mentor_port_boxes {
-	margin: 50px 0 70px 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.mentor_port_boxes {
+	display: grid;
+	gap: 0 50px;
+	grid-template-columns: repeat(4, minmax(200px, 1fr));
+}
+.mentor_port_img {
+	grid-column: span 2;
 }
 
 .mentor_port_box {
 	width: min-content;
 	position: relative;
-	margin: 0 10px;
+	/* margin: 0 10px; */
 }
 
 .mentor_port_box img {
