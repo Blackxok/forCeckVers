@@ -384,7 +384,8 @@
 	);
 }
 .faq_container {
-	max-width: 1200px;
+	width: 100%;
+	max-width: 1220px;
 	padding: 50px;
 }
 .faq_title h1 {
@@ -412,6 +413,7 @@
 	padding: 0 10px;
 }
 .faq_l_side img {
+	transform: translateX(-55px);
 	width: calc(var(--size) * 18);
 	max-width: 480px;
 }
@@ -476,4 +478,3 @@
 	overflow-y: auto;
 	scrollbar-width: none;
 }
-
