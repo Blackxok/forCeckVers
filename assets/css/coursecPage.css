@@ -104,7 +104,7 @@
 .home_time h1 {
 	font-family: var(--font1);
 	font-size: 60px;
-	font-weight: var(--deg);
+	font-weight: 600;
 	text-align: center;
 }
 .home_time h3 {
@@ -135,7 +135,7 @@
 .trailer_container {
 	width: 100%;
 	max-width: 1200px;
-	padding: 100px 50px;
+	padding: 30px 50px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -217,10 +217,22 @@
 	justify-content: space-between;
 	flex-direction: column;
 }
+.lesson_b_l_side:nth-child(odd) {
+	transform: translateX(-20px);
+}
+.lesson_b_l_side:nth-child(even) {
+	transform: translateX(20px);
+}
+.lesson_b_l_side:nth-child(odd) > .detail_title {
+	padding-left: 20px;
+}
+.lesson_b_l_side:nth-child(even) > .detail_title {
+	padding-right: 22px;
+}
 .detail_title {
 	padding: 20px 0;
 	font-family: var(--font1);
-	font-size: 31px;
+	font-size: 28px;
 	font-weight: 700;
 	text-align: left;
 }
@@ -345,6 +357,7 @@
 	justify-content: space-between;
 }
 .wp_l_side {
+	transform: translateX(-20px);
 	display: flex;
 }
 
@@ -361,6 +374,7 @@
 }
 .wp_r_side img {
 	width: calc(var(--size) * 16);
+	transform: translateX(65px);
 }
 /* portfolir stusents ----------------------------------------------- */
 /* portfolir stusents ----------------------------------------------- */

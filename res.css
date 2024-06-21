@@ -42,6 +42,9 @@
 	.home_time h3 {
 		font-size: 39px;
 	}
+	.home_r_side img {
+		transform: translateX(10px);
+	}
 }
 
 @media (max-width: 1040px) {
@@ -133,6 +136,9 @@
 	}
 	.trailer_button h1 {
 		font-size: calc(var(--size) * 2);
+	}
+	.mentor_home_bottom {
+		grid-template-columns: repeat(3, minmax(170px, 1fr));
 	}
 }
 
@@ -336,6 +342,9 @@
 	.lesson_b_r_side img {
 		width: 250px;
 		height: 400px;
+	}
+	.mentor_home_bottom {
+		grid-template-columns: repeat(2, minmax(170px, 1fr));
 	}
 }
 
