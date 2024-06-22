@@ -5,6 +5,12 @@
 	/* width: calc(var(--size) * 10); use */
 	--color1: rgba(11, 4, 20, 1);
 	--color2: rgba(230, 230, 240, 1);
+	--color3: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
 	--font1: 'TT Firs Neue Trl', sans-serif;
 	--deg: 255deg;
 	--font2_mentorP: 'Manrope', sans-serif;
@@ -30,6 +36,7 @@
 	display: grid;
 	gap: 20px;
 	grid-template-columns: repeat(4, minmax(170px, 1fr));
+	margin-bottom: 50px;
 }
 .mentor_gl_p {
 	width: max-content;
@@ -267,10 +274,10 @@
 	position: relative;
 }
 .mentor_port_box img {
+	border-radius: 20px;
 	transform: translate(-15px, 50px);
-	z-index: 11;
-	position: relative;
 }
+
 .mentor_port_box a {
 	position: relative;
 	font-size: 23px;
