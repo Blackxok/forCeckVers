@@ -1,18 +1,13 @@
 @media (max-width: 1250px) {
-	.about .about_container {
-		padding: 0 50px;
-	}
-	.about .about_container .about_r_side {
-		margin: 0;
-	}
-	.mentor_port .mentor_port_container .mentor_port_title h1 {
-		font-size: 50px;
-	}
 	.mentor_home_l_side h1 {
 		font-size: 125px;
 	}
 }
-
+@media (max-width: 1200px) {
+	.about_r_bottom_icons button {
+		width: 110px;
+	}
+}
 @media (max-width: 1100px) {
 	.number {
 		font-size: 10px;
@@ -63,9 +58,15 @@
 	.mentor_home_l_side h1 {
 		font-size: 115px;
 	}
-	.mentor_home_r_side img{
-    width: calc(var(--size)* 22);
+	.mentor_home_r_side img {
+		width: calc(var(--size) * 22);
 		transform: translateY(-150px);
+	}
+	.about_r_bottom_title {
+		margin: 0;
+	}
+	.about_r_top_p {
+		margin: 10px 0;
 	}
 }
 
@@ -175,9 +176,62 @@
 	.mentor_home_l_side h1 {
 		font-size: 100px;
 	}
-	.mentor_home_r_side img{
-    /* width: calc(var(--size)* 22); */
+	.mentor_home_r_side img {
+		/* width: calc(var(--size)* 22); */
 		transform: translateY(-130px);
+	}
+	/* .about_r_bottom_icons button {
+		width: 70px;
+		font-size: 9px;
+		padding: 10px 3px;
+	} */
+	.about_r_top,
+	.about_r_bottom {
+		padding: 10px 20px;
+	}
+	.about_r_bottom_icons {
+		display: grid;
+		gap: 10px 5px;
+		grid-template-columns: repeat(2, minmax(100px, 1fr));
+		grid-template-rows: repeat(2, minmax(50px, 1fr));
+		grid-template-areas:
+			'icon_ss icon_ss'
+			'butn1 butn2';
+		justify-items: center;
+		margin-top: 10px;
+	}
+	.about_r_bottom_icons_box {
+		grid-area: icon_ss;
+	}
+	.about_r_bottom_items p,
+	.about_r_top_p2 {
+		line-height: normal;
+		padding: 5px 0;
+		margin: 0;
+		font-size: 14px;
+	}
+}
+@media (max-width: 960px) {
+	.mentor_port_boxes {
+		grid-template-columns: repeat(3, minmax(200px, 1fr));
+	}
+	.mentor_port_boxes .mentor_port_box:nth-child(1) {
+		order: 1;
+	}
+	.mentor_port_boxes .mentor_port_box:nth-child(2) {
+		order: 2;
+	}
+	.mentor_port_boxes .mentor_port_box:nth-child(3) {
+		order: 3;
+	}
+	.mentor_port_boxes .mentor_port_box:nth-child(4) {
+		order: 7;
+	}
+	.mentor_port_boxes .mentor_port_box:nth-child(5) {
+		order: 4;
+	}
+	.mentor_port_boxes .mentor_port_box:nth-child(6) {
+		order: 6;
 	}
 }
 
@@ -272,6 +326,10 @@
 	}
 	.mentor_home_l_side h1 {
 		font-size: 90px;
+	}
+	.about_r_bottom_items p,
+	.about_r_top_p2 {
+		font-size: 10px;
 	}
 }
 @media (max-width: 888px) {
