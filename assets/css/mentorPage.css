@@ -82,41 +82,22 @@
 	border: 1px solid #2b2b2b;
 	background: linear-gradient(
 		45deg,
-		rgba(35, 32, 41, 0.63) 0%,
-		/* rgb(42, 37, 53) 47%, */ rgb(19, 7, 35) 100%
+		rgba(16, 16, 17, 0.95) 0%,
+		rgb(42, 37, 53, 0.95) 47%,
+		rgb(23, 10, 41) 100%
 	);
 	position: relative;
-	z-index: 0;
 }
-
-@keyframes rotate {
-	100% {
-		transform: rotate(1turn);
-	}
-}
-.mentor_home_b_bos::before {
+.mentor_home_b_bos:hover::before {
 	content: ' ';
-	width: 104%;
-	height: 108%;
-	top: -4px;
+	width: 100%;
+	height: 100%;
+	top: 0;
 	position: absolute;
 	border-radius: 20px;
-	border: 1px solid #399953;
-	color: red;
-	overflow: hidden;
+	background: linear-gradient(to bottom right, #008cff, #e100ff);
+	filter: blur(5px);
 	z-index: -1;
-}
-.mentor_home_b_bos:hover:after {
-	content: ' ';
-	width: 150%;
-	height: 300%;
-	top: -100px;
-	position: absolute;
-	border-radius: 100px;
-	background: rgba(255, 0, 0, 0.212);
-	color: red;
-	animation: rotate 3s linear infinite;
-	z-index: -2;
 }
 
 .mentor_home_b_bos h2 {
@@ -251,6 +232,10 @@
 	align-items: center;
 	justify-content: center;
 }
+.about_r_bottom_icons_box img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
 .about_r_bottom_icons button {
 	width: 100%;
 	max-width: 140px !important;
@@ -265,6 +250,9 @@
 		#2f2f37 28.87%,
 		rgba(47, 47, 55, 0) 76.42%
 	);
+}
+.about_r_bottom_icons button:hover {
+	animation: zzz 0.1s;
 }
 .about_r_bottom_icons button a {
 	color: rgb(230, 230, 240) !important;
@@ -303,7 +291,25 @@
 .mentor_port_box {
 	position: relative;
 }
-
+.mentor_port_box:hover img {
+	filter: blur(0px);
+}
+.mentor_port_box:hover {
+	border: 1px solid rgba(255, 255, 255, 0.164);
+	border-radius: 20px;
+	transition: none;
+}
+.mentor_port_box:hover::before {
+	content: ' ';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	border-radius: 20px;
+	background: linear-gradient(to bottom right, #008cff, #e100ff);
+	filter: blur(10px);
+	position: absolute;
+	z-index: -1;
+}
 .mentor_port_box::after {
 	left: 0;
 	bottom: 0;
@@ -343,6 +349,7 @@
 .mentor_port_box img {
 	width: 100%;
 	border-radius: 20px;
+	filter: blur(1px);
 }
 .home_r_side {
 	position: relative;

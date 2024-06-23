@@ -1,6 +1,5 @@
 //////////////////////////////////// nav
 document.addEventListener('DOMContentLoaded', function () {
-	let number_item = document.querySelectorAll('.l_d_num')
 	let buttons = document.querySelectorAll('.nav_btn')
 	buttons.forEach(function (button) {
 		button.addEventListener('click', function () {
@@ -10,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			this.classList.add('active')
 		})
 	})
-
 	//////////////////////////////////// item numbers lesson detail section
+	let number_item = document.querySelectorAll('.l_d_num')
 	number_item.forEach((e, x) => {
 		e.innerHTML = x + 1
 	})
@@ -49,7 +48,6 @@ function acardion() {
 		})
 	})
 }
-
 acardion()
 //  some hover effect
 //  some hover effect
@@ -68,3 +66,29 @@ l_detail.forEach(e => {
 		e.querySelector('.reverse_strelka').style.marginLeft = '0px'
 	})
 }, false)
+// Img TILT effect === === === === === ===
+// Img TILT effect === === === === === ===
+// Img TILT effect === === === === === ===
+// Img TILT effect === === === === === ===
+window.onload = function () {
+	const imageElement = document.querySelector('.tilt_image')
+	if (imageElement) {
+		const handleMouseMove = e => {
+			let rect = imageElement.getBoundingClientRect()
+			let x = e.clientX
+			let y = e.clientY
+
+			let dx = (x - rect.width / 2) / (rect.width / 2)
+			let dy = (y - rect.height / 2) / (rect.height / 2)
+
+			imageElement.style.transform = `translateX(-35px) perspective(500px) rotateY(${
+				dx * 6
+			}deg) rotateX(${-dy * 6}deg)`
+		}
+		const handleMouseLeave = () => {
+			imageElement.style.transform = ''
+		}
+		imageElement.addEventListener('mousemove', handleMouseMove)
+		imageElement.addEventListener('mouseleave', handleMouseLeave)
+	}
+}

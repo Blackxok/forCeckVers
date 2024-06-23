@@ -24,7 +24,7 @@
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: column;
-	border: 1px solid rgba(255, 255, 255, 0.5607843137);
+	border: 1px solid #2b2b2b;
 	background: linear-gradient(
 		45deg,
 		rgba(20, 11, 42, 0.86) 0%,
@@ -33,52 +33,15 @@
 	);
 	position: relative;
 }
-
-@keyframes sw {
-	0% {
-	}
-	10% {
-	}
-	20% {
-	}
-	30% {
-	}
-	40% {
-	}
-	50% {
-	}
-	60% {
-	}
-	70% {
-	}
-	80% {
-	}
-	90% {
-	}
-	100% {
-	}
-}
 .shadow:hover:before {
-	content: '';
+	content: ' ';
+	width: 100%;
+	height: 100%;
+	top: 0;
 	position: absolute;
-	inset: 1px;
-	transform: translate3d(0, 0, -1px);
-	background: conic-gradient(
-		from 10deg,
-		#fd0000 0%,
-		rgb(229, 255, 0) 10%,
-		rgb(200, 255, 0) 20%,
-		rgb(115, 255, 0) 30%,
-		rgb(43, 255, 0) 40%,
-		rgb(0, 247, 255) 50%,
-		rgb(0, 68, 255) 60%,
-		rgb(89, 0, 255) 70%,
-		rgb(132, 7, 250) 80%,
-		rgb(195, 0, 255) 90%,
-		#0051ff 100%
-	);
-	filter: blur(10px);
-	animation: sw 3s linear infinite;
+	border-radius: 20px;
+	background: linear-gradient(to bottom right, #008cff, #e100ff);
+	filter: blur(5px);
 	z-index: -1;
 }
 .home_b_bos h2 {
@@ -417,10 +380,22 @@
 	border-radius: 20px;
 	width: 100%;
 }
+@keyframes zzz {
+	0% {
+		transform: rotate(1deg);
+	}
+	50% {
+		transform: rotate(-1deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
 .port_imgs img:hover {
-	-webkit-box-shadow: 0.5px 0.5px 15px -4px #ffffff;
-	-moz-box-shadow: 0.5px 0.5px 15px -4px #ffffff;
-	box-shadow: 0.5px 0.5px 15px -4px #ffffff;
+	-webkit-box-shadow: 0.5px 0.5px 20px -3px #000000;
+	-moz-box-shadow: 0.5px 0.5px 20px -3px #000000;
+	box-shadow: 0.5px 0.5px 20px -3px #000000;
+	animation: zzz 0.1s;
 }
 /* faq frecuently asq----------------------------------------------- */
 /* faq frecuently asq----------------------------------------------- */
@@ -470,7 +445,7 @@
 	padding: 0 10px;
 }
 .faq_l_side img {
-	transform: translateX(-55px);
+	transform: translateX(-35px);
 	width: calc(var(--size) * 18);
 	max-width: 480px;
 }
@@ -486,9 +461,10 @@
 	border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .r_side_items:hover {
-	-webkit-box-shadow: 0.5px 0.5px 10px -4px #ffffff;
-	-moz-box-shadow: 0.5px 0.5px 10px -4px #ffffff;
-	box-shadow: 0.5px 0.5px 10px -4px #ffffff;
+	-webkit-box-shadow: 0.5px 0.5px 20px -4px #000000;
+	-moz-box-shadow: 0.5px 0.5px 20px -4px #000000;
+	box-shadow: 0.5px 0.5px 20px -4px #000000;
+	animation: zzz 0.1s;
 }
 .r_side_items .r_side_item_title {
 	display: flex;
