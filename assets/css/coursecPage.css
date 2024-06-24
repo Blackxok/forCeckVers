@@ -108,6 +108,10 @@
 	/* width: 620px; */
 	max-width: 620px;
 }
+.curse_trailer_top:hover {
+	animation: zzz 0.1s;
+	cursor: pointer;
+}
 
 .trailer_button {
 	width: 400px;
@@ -141,6 +145,7 @@
 	-webkit-box-shadow: 0 0 18px -8px #000000;
 	-moz-box-shadow: 0 0 18px -8px #000000;
 	box-shadow: 0 0 18px -8px #000000;
+	cursor: pointer;
 }
 /* Lesso_n detail -----------------------------------------------------------*/
 /* Lesso_n detail -----------------------------------------------------------*/
@@ -203,6 +208,9 @@
 	display: flex;
 	align-items: center;
 	margin: 10px 0;
+}
+.lesson_detail:hover {
+	cursor: pointer;
 }
 ._for2 {
 	transform: translateX(23px) !important;
