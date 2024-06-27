@@ -109,7 +109,7 @@
 	max-width: 620px;
 }
 .curse_trailer_top:hover {
-	animation: zzz 0.1s;
+	animation: zzz 0.6s linear;
 	cursor: pointer;
 }
 
@@ -403,7 +403,7 @@
 	-webkit-box-shadow: 0.5px 0.5px 20px -3px #000000;
 	-moz-box-shadow: 0.5px 0.5px 20px -3px #000000;
 	box-shadow: 0.5px 0.5px 20px -3px #000000;
-	animation: zzz 0.1s;
+	animation: zzz 0.6s linear;
 }
 /* faq frecuently asq----------------------------------------------- */
 /* faq frecuently asq----------------------------------------------- */
@@ -472,7 +472,7 @@
 	-webkit-box-shadow: 0.5px 0.5px 20px -4px #000000;
 	-moz-box-shadow: 0.5px 0.5px 20px -4px #000000;
 	box-shadow: 0.5px 0.5px 20px -4px #000000;
-	animation: zzz 0.1s;
+	animation: zzz 0.6s linear;
 }
 .r_side_items .r_side_item_title {
 	display: flex;

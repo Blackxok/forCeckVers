@@ -304,7 +304,7 @@ body {
 	justify-content: space-around;
 	flex-direction: column;
 	/* padding: 10px 50px; */
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .fishka_wraper {
@@ -320,7 +320,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 
 .talim_boxes {
@@ -589,6 +589,16 @@ body {
 		rgb(17, 4, 133) 100%
 	);
 	cursor: pointer;
+	position: relative;
+}
+.kurses_box_tglink:hover {
+	background: linear-gradient(90deg, #072e94 0%, #830bfa 100%),
+		linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.08) 0%,
+			rgba(255, 255, 255, 0) 31.77%
+		);
+	transition: all 1s;
 }
 .kurses_box_tglink p {
 	font-size: 16px;
@@ -1424,7 +1434,7 @@ body {
 	}
 }
 .footer_submit:hover {
-	animation: zzz 0.1s;
+	animation: zzz 0.6s linear;
 }
 .footer_submit:hover::before {
 	content: ' ';
